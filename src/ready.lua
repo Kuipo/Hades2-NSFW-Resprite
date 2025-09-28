@@ -7,17 +7,9 @@
 -- 	so you will most likely want to have it reference
 --	values and functions later defined in `reload.lua`.
 
-local file = rom.path.combine(rom.paths.Content, 'Game/Text/en/ShellText.en.sjson')
+local package = "Kuipo-Resprite"
 
--- sjson.hook(file, function(data)
--- 	return sjson_ShellText(data)
--- end)
-
--- modutil.mod.Path.Wrap("SetupMap", function(base, ...)
--- 	prefix_SetupMap()
--- 	return base(...)
--- end)
-
--- game.OnControlPressed({'Gift', function()
--- 	return trigger_Gift()
--- end})
+modutil.mod.Path.Wrap("SetupMap", function(base)
+    LoadPackages({Name = package})
+    base()
+end)
