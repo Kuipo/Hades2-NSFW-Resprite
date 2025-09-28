@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Reduced mod prequisites (should be no change)
+- Reduced mod dependencies (should be no change)
 
 ## [1.0.1] - 2025-09-28
 
