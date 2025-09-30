@@ -7,9 +7,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Added the missing portrait Portrait_Nemesis_Averted_01
+- Added the missing portrait Portrait_Artemis_Serious_01
+- Added the missing portrait Portrait_Circe_Serious_01
+- Added the missing portrait Portrait_Mel_Bath_Shock_01
+- Added the missing portrait Portrait_Mel_Bath_Tearful_01
+
 ### Changed
 
 - Reduced mod dependencies (should be no change)
+- Corrected position and scale of Portrait_Melinoe_Empathetic_01
+- Corrected issue where sometimes The following characters would appear as original art
+	- Hera
+	- Selene
+	- Demeter
+	- Hestia
+	- Eris
+- Added the missing glow around the ghosts for Portrait_Dora_Thoughtful_01
 
 ## [1.0.1] - 2025-09-28
 

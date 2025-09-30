@@ -1,5 +1,5 @@
 return {
   version = 0;
   enabled = true;
-  message = 'Hello World!';
+  message = 'Kuipo-NSFWResprite Loaded';
 }
