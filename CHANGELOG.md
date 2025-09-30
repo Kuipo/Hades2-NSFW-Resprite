@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.2] - 2025-09-30
+
 ### Added
 
 - Added the missing portrait Portrait_Nemesis_Averted_01
@@ -20,11 +22,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Reduced mod dependencies (should be no change)
 - Corrected position and scale of Portrait_Melinoe_Empathetic_01
 - Corrected issue where sometimes The following characters would appear as original art
-	- Hera
-	- Selene
-	- Demeter
-	- Hestia
-	- Eris
+  		\- Hera
+  		\- Selene
+  		\- Demeter
+  		\- Hestia
+  		\- Eris
 - Added the missing glow around the ghosts for Portrait_Dora_Thoughtful_01
 
 ## [1.0.1] - 2025-09-28
@@ -39,5 +41,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - First version of the mod published on thunderstore.
 
-[unreleased]: https://github.com/Kuipo/Hades2-NSFW-Resprite/compare/1.0.1...HEAD
+[unreleased]: https://github.com/Kuipo/Hades2-NSFW-Resprite/compare/1.0.2...HEAD
+[1.0.2]: https://github.com/Kuipo/Hades2-NSFW-Resprite/compare/1.0.1...1.0.2
 [1.0.1]: https://github.com/Kuipo/Hades2-NSFW-Resprite/compare/b453fe1f3ed0eb64f1ae7136be7d530a288fd7b9...1.0.1
