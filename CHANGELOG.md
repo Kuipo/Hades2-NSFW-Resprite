@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Corrected issue where sometimes Aphrodite would appear as original art
+
 ## [1.0.2] - 2025-09-30
 
 ### Added
@@ -21,7 +25,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Reduced mod dependencies (should be no change)
 - Corrected position and scale of Portrait_Melinoe_Empathetic_01
-- Corrected issue where sometimes The following characters would appear as original art
+- Corrected issue where sometimes the following characters would appear as original art
   		\- Hera
   		\- Selene
   		\- Demeter

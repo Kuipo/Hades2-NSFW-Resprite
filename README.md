@@ -37,6 +37,7 @@ LoRA: hades_pony_v2-1
     `Portrait_Eris_Flushed_01`
     `Portrait_Eris_Default_02`
     `Portrait_Eris_Flushed_02`
+    `Portrait_Aphrodite_Displeased_01`
     The "inPerson" versions of portraits:
     `Portrait_Hera_InPerson_Displeased_01`
     `Portrait_Demeter_InPerson_01`

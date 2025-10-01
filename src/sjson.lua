@@ -999,6 +999,19 @@ sjson.hook(gui_portraits_vfx_path, function(data)
             animation_data.OffsetX = -50 --done
         end
 
+        if animation_data.Name == "Portrait_Aphrodite_Displeased_01" then
+            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Aphrodite_Default_01"
+            animation_data.Scale = 0.65
+            animation_data.OffsetY = -90
+            animation_data.OffsetX = -50
+        end
+        if animation_data.Name == "Portrait_Aphrodite_Displeased_01_Exit" then
+            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Aphrodite_Default_01"
+            animation_data.Scale = 0.65
+            animation_data.OffsetY = -90
+            animation_data.OffsetX = -50
+        end
+
         -- Circe
         if animation_data.Name == "Portrait_Circe_Default_01" then
             animation_data.FilePath = "Kuipo-Resprite\\Portrait_Circe_Default_01"
