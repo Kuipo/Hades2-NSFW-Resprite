@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.5] - 2025-10-07
+
 ### Changed
 
 - Fixed the placement FOR ALL of the current images
@@ -51,7 +53,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - First version of the mod published on thunderstore.
 
-[unreleased]: https://github.com/Kuipo/Hades2-NSFW-Resprite/compare/1.0.3...HEAD
+[unreleased]: https://github.com/Kuipo/Hades2-NSFW-Resprite/compare/1.0.5...HEAD
+[1.0.5]: https://github.com/Kuipo/Hades2-NSFW-Resprite/compare/1.0.3...1.0.5
 [1.0.3]: https://github.com/Kuipo/Hades2-NSFW-Resprite/compare/1.0.2...1.0.3
 [1.0.2]: https://github.com/Kuipo/Hades2-NSFW-Resprite/compare/1.0.1...1.0.2
 [1.0.1]: https://github.com/Kuipo/Hades2-NSFW-Resprite/compare/b453fe1f3ed0eb64f1ae7136be7d530a288fd7b9...1.0.1
