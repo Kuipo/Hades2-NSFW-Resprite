@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.6] - 2025-10-07
+
 ### Added
 
 - Added completely new portrait for the missing `Portrait_Demeter_Pleased_01`
@@ -64,7 +66,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - First version of the mod published on thunderstore.
 
-[unreleased]: https://github.com/Kuipo/Hades2-NSFW-Resprite/compare/1.0.5...HEAD
+[unreleased]: https://github.com/Kuipo/Hades2-NSFW-Resprite/compare/1.0.6...HEAD
+[1.0.6]: https://github.com/Kuipo/Hades2-NSFW-Resprite/compare/1.0.5...1.0.6
 [1.0.5]: https://github.com/Kuipo/Hades2-NSFW-Resprite/compare/1.0.3...1.0.5
 [1.0.3]: https://github.com/Kuipo/Hades2-NSFW-Resprite/compare/1.0.2...1.0.3
 [1.0.2]: https://github.com/Kuipo/Hades2-NSFW-Resprite/compare/1.0.1...1.0.2
