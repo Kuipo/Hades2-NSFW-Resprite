@@ -2,7 +2,7 @@
 
 This mod replaces most of the 2D artwork in the game with NSFW images.
 
-This is my version of a NSFW mod for Hades 2. This is currently for The 1.0 release. There's still some work to do on it but I wanted to get a release that can be used on the 1.0 version quickly.
+This is my version of a NSFW mod for Hades 2. This is currently for The 1.0 release. This replaces a significant amount of the in-game 2D artwork with NSFW images. NOTE: You must be using high resolution textures to see the replacement images.
 
 ### Disclaimer:
 
@@ -23,9 +23,8 @@ LoRA: hades_pony_v2-1
 
 ## ToDo
 
-1. Finalize all the portrait placements. I haven't run across all the images in-game yet and usually once I run across them in-game I need to adjust their placements to make them look appropriate.
-2. I would love to add the effects that I needed to disable for all the portraits (glint, flames, blinking, moonglow, wiggle, etc.) but I don't know how to do that without a massive amount of work
-3. Add additional artwork to replace the following images:
+1. I would love to add the effects that I needed to disable for all the portraits (glint, flames, blinking, moonglow, wiggle, etc.) but I don't know how to do that without a massive amount of work
+2. Add additional artwork to replace the following images:
     `Portrait_Mel_EmpatheticFlushed_01`
     `Portrait_Mel_PleasedFlushed_01`
     `Portrait_Nemesis_Flushed_01`
@@ -43,9 +42,9 @@ LoRA: hades_pony_v2-1
     `Portrait_Demeter_InPerson_01`
     `Portrait_Demeter_InPerson_Pleased_01`
     `Portrait_Selene_InPerson_01`
-4. Finish replacing the following images:
+3. Finish replacing the following images:
     `Portraits_Hecate_Baby_01.png`
     `Portraits_Hecate_Frozen_01.png`
-    `Portrait_Dora_Hardhat` (Hardhat, what?)
-5. Replace Fates at some point?
-6. Replace Scylla at some point?
+    `Portrait_Dora_Hardhat`
+4. Replace Fates at some point?
+5. Replace Scylla at some point?
