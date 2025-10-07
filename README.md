@@ -12,7 +12,7 @@ LoRA: hades_pony_v2-1
 
 ## Features
 
-- Replaces 40 character portraits for pretty much every female character in the game
+- Replaces 44 character portraits for pretty much every female character in the game
 - Replaces 17 portraits for the codex
 
 ## Install
@@ -28,16 +28,11 @@ LoRA: hades_pony_v2-1
     `Portrait_Mel_EmpatheticFlushed_01`
     `Portrait_Mel_PleasedFlushed_01`
     `Portrait_Nemesis_Flushed_01`
-    `Portrait_Hec_Bath_01` (The masked version)
-    `Portrait_Hera_Displeased_01`
-    `Portrait_Hestia_Displeased_01`
-    `Portrait_Demeter_Pleased_01`
-    `Portrait_Hestia_Default_01_Wrath`
     `Portrait_Eris_Flushed_01`
-    `Portrait_Eris_Default_02`
-    `Portrait_Eris_Flushed_02`
-    `Portrait_Aphrodite_Displeased_01`
-    The "inPerson" versions of portraits:
+    `Portrait_Eris_Default_02` (Aspect of Lucifer version)
+    `Portrait_Eris_Flushed_02` (Aspect of Lucifer version)
+    `Portrait_Hec_Bath_01` (The masked version)
+2. Make different images for the "inPerson" versions of portraits (when you meet them in town):
     `Portrait_Hera_InPerson_Displeased_01`
     `Portrait_Demeter_InPerson_01`
     `Portrait_Demeter_InPerson_Pleased_01`
@@ -48,3 +43,8 @@ LoRA: hades_pony_v2-1
     `Portrait_Dora_Hardhat`
 4. Replace Fates at some point?
 5. Replace Scylla at some point?
+6. Figure out what the `_Wrath` portraits are... and if I need to replace them?
+    `Portrait_Hera_Default_01_Wrath`
+    `Portrait_Hestia_Default_01_Wrath`
+    `Portrait_Demeter_Default_01_Wrath`
+    `Portrait_Aphrodite_Default_01_Wrath`

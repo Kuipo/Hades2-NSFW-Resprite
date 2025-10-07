@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Added completely new portrait for the missing `Portrait_Demeter_Pleased_01`
+- Added completely new portrait for the missing `Portrait_Hestia_Displeased_01`
+- Added completely new portrait for the missing `Portrait_Aphrodite_Displeased_01`
+- Added completely new portrait for the missing `Portrait_Hera_Displeased_01`
+
+### Changed
+
+- Replaced Hera portrait
+
 ## [1.0.5] - 2025-10-07
 
 ### Changed
