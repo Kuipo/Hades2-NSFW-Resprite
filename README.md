@@ -12,8 +12,8 @@ LoRA: hades_pony_v2-1
 
 ## Features
 
-- Replaces 44 character portraits for pretty much every female character in the game
-- Replaces 17 portraits for the codex
+- Replaces 46 character portraits for pretty much every female character in the game
+- Replaces 18 portraits for the codex
 
 ## Install
 
@@ -42,8 +42,7 @@ LoRA: hades_pony_v2-1
     `Portraits_Hecate_Frozen_01.png`
     `Portrait_Dora_Hardhat`
 4. Replace Fates at some point?
-5. Replace Scylla at some point?
-6. Figure out what the `_Wrath` portraits are... and if I need to replace them?
+5. Figure out what the `_Wrath` portraits are... and if I need to replace them?
     `Portrait_Hera_Default_01_Wrath`
     `Portrait_Hestia_Default_01_Wrath`
     `Portrait_Demeter_Default_01_Wrath`

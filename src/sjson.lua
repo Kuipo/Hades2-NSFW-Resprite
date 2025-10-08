@@ -478,14 +478,35 @@ local disabled_animations = {
     Portrait_Demeter_OlympianGlow           = true,
     Portrait_Demeter_EaringsGlow            = true,
     Portrait_Demeter_MainGlow               = true,
-    Portrait_Demeter_Glint                  = true
+    Portrait_Demeter_Glint                  = true,
+    -- Scylla
+    Portrait_Scylla_MoonGlow_In             = true,
+    Portrait_Scylla_Wiggle1_In              = true,
+    Portrait_Scylla_Wiggle2_In              = true,
+    Portrait_Scylla_Wiggle3_In              = true,
+    Portrait_Scylla_Wiggle4_In              = true,
+    Portrait_Scylla_Eyes1_In                = true,
+    Portrait_Scylla_Eyes2_In                = true,
+    Portrait_Scylla_Eyes3_In                = true,
+    Portrait_Scylla_MainGlo                 = true,
+    Portrait_Scylla_Glint                   = true,
+    Portrait_Scylla_Blink                   = true,
+    Portrait_ScyllaEM_MoonGlow_In           = true,
+    Portrait_ScyllaEM_Wiggle1_In            = true,
+    Portrait_ScyllaEM_Wiggle2_In            = true,
+    Portrait_ScyllaEM_Wiggle3_In            = true,
+    Portrait_ScyllaEM_Wiggle4_In            = true,
+    Portrait_ScyllaEM_Eyes1_In              = true,
+    Portrait_ScyllaEM_Eyes2_In              = true,
+    Portrait_ScyllaEM_Eyes3_In              = true,
+    Portrait_ScyllaEM_MainGlo               = true,
+    Portrait_ScyllaEM_Glint                 = true,
+    Portrait_ScyllaEM_Blink                 = true
 }
 
 function is_animation_disabled(str)
     return disabled_animations[str] == true
 end
-
-
 
 
 -- Portraits
@@ -499,169 +520,169 @@ sjson.hook(gui_portraits_vfx_path, function(data)
 
         -- Melinoe
         if animation_data.Name == "Portrait_Mel_Default_01" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Melinoe_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Melinoe_01"
             animation_data.Scale = 0.65 --done
             animation_data.OffsetY = -70 --done
             animation_data.OffsetX = -50 --done
         end
         if animation_data.Name == "Portrait_Mel_Default_01_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Melinoe_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Melinoe_01"
             animation_data.Scale = 0.65 --done
             animation_data.OffsetY = -70 --done
             animation_data.OffsetX = -50 --done
         end
 
         if animation_data.Name == "Portrait_Mel_Vulnerable_01" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Melinoe_Vulnerable_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Melinoe_Vulnerable_01"
             animation_data.Scale = 0.7 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -100 --done
         end
         if animation_data.Name == "Portrait_Mel_Vulnerable_01_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Melinoe_Vulnerable_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Melinoe_Vulnerable_01"
             animation_data.Scale = 0.7 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -100 --done
         end
 
         if animation_data.Name == "Portrait_Mel_Intense_01" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Melinoe_Intense_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Melinoe_Intense_01"
             animation_data.Scale = 0.7 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -50 --done
         end
         if animation_data.Name == "Portrait_Mel_Intense_01_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Melinoe_Intense_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Melinoe_Intense_01"
             animation_data.Scale = 0.7 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -50 --done
         end
 
         if animation_data.Name == "Portrait_Mel_Pleased_01" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Melinoe_Pleased_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Melinoe_Pleased_01"
             animation_data.Scale = 0.65 --done
             animation_data.OffsetY = -40 --done
             animation_data.OffsetX = -100 --done
         end
         if animation_data.Name == "Portrait_Mel_Pleased_01_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Melinoe_Pleased_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Melinoe_Pleased_01"
             animation_data.Scale = 0.65 --done
             animation_data.OffsetY = -40 --done
             animation_data.OffsetX = -100 --done
         end
 
         if animation_data.Name == "Portrait_Mel_PleasedFlushed_01" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Melinoe_Pleased_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Melinoe_Pleased_01"
             animation_data.Scale = 0.65 --done
             animation_data.OffsetY = -40 --done
             animation_data.OffsetX = -100 --done
         end
         if animation_data.Name == "Portrait_Mel_PleasedFlushed_01_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Melinoe_Pleased_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Melinoe_Pleased_01"
             animation_data.Scale = 0.65 --done
             animation_data.OffsetY = -40 --done
             animation_data.OffsetX = -100 --done
         end
 
         if animation_data.Name == "Portrait_Mel_Bath_01" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Melinoe_Bath_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Melinoe_Bath_01"
             animation_data.Scale = 0.65 --done
             animation_data.OffsetY = -80 --done
             animation_data.OffsetX = -155 --done
         end
         if animation_data.Name == "Portrait_Mel_Bath_01_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Melinoe_Bath_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Melinoe_Bath_01"
             animation_data.Scale = 0.65 --done
             animation_data.OffsetY = -80 --done
             animation_data.OffsetX = -155 --done
         end
 
         if animation_data.Name == "Portrait_Mel_Bath_Shock_01" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Mel_Bath_Shock_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Mel_Bath_Shock_01"
             animation_data.Scale = 0.60 --done
             animation_data.OffsetY = -75 --done
             animation_data.OffsetX = -120 --done
         end
         if animation_data.Name == "Portrait_Mel_Bath_Shock_01_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Mel_Bath_Shock_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Mel_Bath_Shock_01"
             animation_data.Scale = 0.60 --done
             animation_data.OffsetY = -75 --done
             animation_data.OffsetX = -120 --done
         end
 
         if animation_data.Name == "Portrait_Mel_Bath_Tearful_01" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Mel_Bath_Tearful_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Mel_Bath_Tearful_01"
             animation_data.Scale = 0.7 --done
             animation_data.OffsetY = -90 --done
             animation_data.OffsetX = -140 --done
         end
         if animation_data.Name == "Portrait_Mel_Bath_Tearful_01_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Mel_Bath_Tearful_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Mel_Bath_Tearful_01"
             animation_data.Scale = 0.7 --done
             animation_data.OffsetY = -90 --done
             animation_data.OffsetX = -140 --done
         end
 
         if animation_data.Name == "Portrait_Mel_Casual_01" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Melinoe_Casual_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Melinoe_Casual_01"
             animation_data.Scale = 0.70 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -100 --done
         end
         if animation_data.Name == "Portrait_Mel_Casual_01_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Melinoe_Casual_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Melinoe_Casual_01"
             animation_data.Scale = 0.70 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -100 --done
         end
 
         if animation_data.Name == "Portrait_Mel_Hesitant_01" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Melinoe_Hesitant_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Melinoe_Hesitant_01"
             animation_data.Scale = 0.75 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -100 --done
         end
         if animation_data.Name == "Portrait_Mel_Hesitant_01_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Melinoe_Hesitant_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Melinoe_Hesitant_01"
             animation_data.Scale = 0.75 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -100 --done
         end
 
         if animation_data.Name == "Portrait_Mel_Empathetic_01" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Melinoe_Empathetic_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Melinoe_Empathetic_01"
             animation_data.Scale = 0.70 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -100 --done
         end
         if animation_data.Name == "Portrait_Mel_Empathetic_01_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Melinoe_Empathetic_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Melinoe_Empathetic_01"
             animation_data.Scale = 0.70 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -100 --done
         end
 
         if animation_data.Name == "Portrait_Mel_EmpatheticFlushed_01" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Melinoe_Empathetic_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Melinoe_Empathetic_01"
             animation_data.Scale = 0.70 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -100 --done
         end
         if animation_data.Name == "Portrait_Mel_EmpatheticFlushed_01_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Melinoe_Empathetic_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Melinoe_Empathetic_01"
             animation_data.Scale = 0.70 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -100 --done
         end
 
         if animation_data.Name == "Portrait_Mel_Proud_01" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Melinoe_Proud_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Melinoe_Proud_01"
             animation_data.Scale = 0.70 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -100 --done
         end
         if animation_data.Name == "Portrait_Mel_Proud_01_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Melinoe_Proud_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Melinoe_Proud_01"
             animation_data.Scale = 0.70 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -100 --done
@@ -669,74 +690,74 @@ sjson.hook(gui_portraits_vfx_path, function(data)
 
         -- Chaos
         if animation_data.Name == "Portrait_Chaos_Default_01" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Chaos_Default_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Chaos_Default_01"
             animation_data.Scale = 0.7 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -50 --done
         end
         if animation_data.Name == "Portrait_Chaos_Default_01_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Chaos_Default_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Chaos_Default_01"
             animation_data.Scale = 0.7 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -50 --done
         end
         if animation_data.Name == "Portrait_Chaos_Default_02" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Chaos_Default_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Chaos_Default_01"
         end
         -- the overlay at the end of a chaos mission
         if animation_data.Name == "ChaosOverlay" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Chaos_Default_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Chaos_Default_01"
             animation_data.Scale = 0.6
         end
 
         -- Nemesis
         if animation_data.Name == "Portrait_Nemesis_Default_01" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Nemesis_Default_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Nemesis_Default_01"
             animation_data.Scale = 0.65 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -100 --done
         end
         if animation_data.Name == "Portrait_Nemesis_Default_01_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Nemesis_Default_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Nemesis_Default_01"
             animation_data.Scale = 0.65 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -100 --done
         end
 
         if animation_data.Name == "Portrait_Nemesis_Flushed_01" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Nemesis_Default_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Nemesis_Default_01"
             animation_data.Scale = 0.65 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -100 --done
         end
         if animation_data.Name == "Portrait_Nemesis_Flushed_01_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Nemesis_Default_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Nemesis_Default_01"
             animation_data.Scale = 0.65 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -100 --done
         end
 
         if animation_data.Name == "Portrait_Nemesis_Averted_01" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Nemesis_Averted_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Nemesis_Averted_01"
             animation_data.Scale = 0.7 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = 0 --done
         end
         if animation_data.Name == "Portrait_Nemesis_Averted_01_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Nemesis_Averted_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Nemesis_Averted_01"
             animation_data.Scale = 0.7 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = 0 --done
         end
 
         if animation_data.Name == "Portrait_Nemesis_Bath_01" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Nemesis_Bath_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Nemesis_Bath_01"
             animation_data.Scale = 0.75 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -100 --done
         end
         if animation_data.Name == "Portrait_Nemesis_Bath_01_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Nemesis_Bath_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Nemesis_Bath_01"
             animation_data.Scale = 0.75 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -100 --done
@@ -744,26 +765,26 @@ sjson.hook(gui_portraits_vfx_path, function(data)
 
         -- Selene
         if animation_data.Name == "Portrait_Selene_Default_01" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Selene_Default_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Selene_Default_01"
             animation_data.Scale = 0.63 --done
             animation_data.OffsetY = -115 --done
             animation_data.OffsetX = -100 --done
         end
         if animation_data.Name == "Portrait_Selene_Default_01_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Selene_Default_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Selene_Default_01"
             animation_data.Scale = 0.63 --done
             animation_data.OffsetY = -115 --done
             animation_data.OffsetX = -100 --done
         end
 
         if animation_data.Name == "Portrait_Selene_InPerson_01" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Selene_Default_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Selene_Default_01"
             animation_data.Scale = 0.63 --done
             animation_data.OffsetY = -115 --done
             animation_data.OffsetX = -100 --done
         end
         if animation_data.Name == "Portrait_Selene_InPerson_01_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Selene_Default_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Selene_Default_01"
             animation_data.Scale = 0.63 --done
             animation_data.OffsetY = -115 --done
             animation_data.OffsetX = -100 --done
@@ -771,26 +792,26 @@ sjson.hook(gui_portraits_vfx_path, function(data)
 
         -- Nyx
         if animation_data.Name == "Portrait_Nyx_Default_01" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Nyx_Default_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Nyx_Default_01"
             animation_data.Scale = 0.6 --done
             animation_data.OffsetY = -85 --done
             animation_data.OffsetX = -100 --done
         end
         if animation_data.Name == "Portrait_Nyx_Default_01_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Nyx_Default_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Nyx_Default_01"
             animation_data.Scale = 0.6 --done
             animation_data.OffsetY = -85 --done
             animation_data.OffsetX = -100 --done
         end
 
         if animation_data.Name == "Portrait_Nyx_Frozen_01" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Nyx_Frozen_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Nyx_Frozen_01"
             animation_data.Scale = 0.7 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -100 --done
         end
         if animation_data.Name == "Portrait_Nyx_Frozen_01_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Nyx_Frozen_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Nyx_Frozen_01"
             animation_data.Scale = 0.7 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -100 --done
@@ -798,13 +819,13 @@ sjson.hook(gui_portraits_vfx_path, function(data)
 
         -- Dora
         if animation_data.Name == "Portrait_Dora_Default_01" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Dora_Default_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Dora_Default_01"
             animation_data.Scale = 0.7 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -125 --done
         end
         if animation_data.Name == "Portrait_Dora_Default_01_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Dora_Default_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Dora_Default_01"
             animation_data.Scale = 0.7 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -125 --done
@@ -812,52 +833,52 @@ sjson.hook(gui_portraits_vfx_path, function(data)
 
 
         if animation_data.Name == "Portrait_Dora_Spooky_01" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Dora_Spooky_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Dora_Spooky_01"
             animation_data.Scale = 0.75 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -50 --done
         end
         if animation_data.Name == "Portrait_Dora_Spooky_01_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Dora_Spooky_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Dora_Spooky_01"
             animation_data.Scale = 0.75 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -50 --done
         end
 
         if animation_data.Name == "Portrait_Dora_Thoughtful_01" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Dora_Thoughtful_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Dora_Thoughtful_01"
             animation_data.Scale = 0.75 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -50 --done
         end
         if animation_data.Name == "Portrait_Dora_Thoughtful_01_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Dora_Thoughtful_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Dora_Thoughtful_01"
             animation_data.Scale = 0.75 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -50 --done
         end
 
         if animation_data.Name == "Portrait_Dora_Bath_01" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Dora_Bath_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Dora_Bath_01"
             animation_data.Scale = 0.6 --done
             animation_data.OffsetY = -80 --done
             animation_data.OffsetX = -100 --done
         end
         if animation_data.Name == "Portrait_Dora_Bath_01_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Dora_Bath_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Dora_Bath_01"
             animation_data.Scale = 0.6 --done
             animation_data.OffsetY = -80 --done
             animation_data.OffsetX = -100 --done
         end
 
         -- if animation_data.Name == "Portrait_Dora_Hardhat" then
-        --     animation_data.FilePath = "Kuipo-Resprite\\Portraits_Dora_Hardhat_01"
+        --     animation_data.FilePath = "Kuipo-RespritePortraits\\Portraits_Dora_Hardhat_01"
         --     animation_data.Scale = 0.6 --done
         --     animation_data.OffsetY = -80 --done
         --     animation_data.OffsetX = -100 --done
         -- end
         -- if animation_data.Name == "Portrait_Dora_Bath_01_Exit" then
-        --     animation_data.FilePath = "Kuipo-Resprite\\Portraits_Dora_Hardhat_01"
+        --     animation_data.FilePath = "Kuipo-RespritePortraits\\Portraits_Dora_Hardhat_01"
         --     animation_data.Scale = 0.6 --done
         --     animation_data.OffsetY = -80 --done
         --     animation_data.OffsetX = -100 --done
@@ -865,26 +886,26 @@ sjson.hook(gui_portraits_vfx_path, function(data)
 
         -- Echo
         if animation_data.Name == "Portrait_Echo_Default_01" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Echo_Default_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Echo_Default_01"
             animation_data.Scale = 0.65 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -20 --done
         end
         if animation_data.Name == "Portrait_Echo_Default_01_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Echo_Default_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Echo_Default_01"
             animation_data.Scale = 0.65 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -20 --done
         end
 
         if animation_data.Name == "Portrait_Echo_Smiling_01" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Echo_Smiling_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Echo_Smiling_01"
             animation_data.Scale = 0.65 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -20 --done
         end
         if animation_data.Name == "Portrait_Echo_Smiling_01_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Echo_Smiling_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Echo_Smiling_01"
             animation_data.Scale = 0.65 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -20 --done
@@ -892,26 +913,26 @@ sjson.hook(gui_portraits_vfx_path, function(data)
 
         -- Artemis
         if animation_data.Name == "Portrait_Artemis_Default_01" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Artemis_Default_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Artemis_Default_01"
             animation_data.Scale = 0.65 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -100 --done
         end
         if animation_data.Name == "Portrait_Artemis_Default_01_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Artemis_Default_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Artemis_Default_01"
             animation_data.Scale = 0.65 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -100 --done
         end
 
         if animation_data.Name == "Portrait_Artemis_Serious_01" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Artemis_Serious_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Artemis_Serious_01"
             animation_data.Scale = 0.70 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = 0 --done
         end
         if animation_data.Name == "Portrait_Artemis_Serious_01_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Artemis_Serious_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Artemis_Serious_01"
             animation_data.Scale = 0.70 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = 0 --done
@@ -919,13 +940,13 @@ sjson.hook(gui_portraits_vfx_path, function(data)
 
         -- Athena
         if animation_data.Name == "Portrait_Athena_Default_01" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Athena_Default_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Athena_Default_01"
             animation_data.Scale = 0.65 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -100 --done
         end
         if animation_data.Name == "Portrait_Athena_Default_01_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Athena_Default_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Athena_Default_01"
             animation_data.Scale = 0.65 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -100 --done
@@ -933,52 +954,52 @@ sjson.hook(gui_portraits_vfx_path, function(data)
 
         -- Hera
         if animation_data.Name == "Portrait_Hera_Default_01" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Hera_Default_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Hera_Default_01"
             animation_data.Scale = 0.66 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -100 --done
         end
         if animation_data.Name == "Portrait_Hera_Default_01_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Hera_Default_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Hera_Default_01"
             animation_data.Scale = 0.66 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -100 --done
         end
 
         if animation_data.Name == "Portrait_Hera_InPerson_01" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Hera_Default_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Hera_Default_01"
             animation_data.Scale = 0.66 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -100 --done
         end
         if animation_data.Name == "Portrait_Hera_Default_01_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Hera_Default_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Hera_Default_01"
             animation_data.Scale = 0.66 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -100 --done
         end
 
         if animation_data.Name == "Portrait_Hera_Displeased_01" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Hera_Displeased_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Hera_Displeased_01"
             animation_data.Scale = 0.68 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -80 --done
         end
         if animation_data.Name == "Portrait_Hera_Displeased_01_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Hera_Displeased_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Hera_Displeased_01"
             animation_data.Scale = 0.68 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -80 --done
         end
 
         if animation_data.Name == "Portrait_Hera_InPerson_Displeased_01" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Hera_Displeased_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Hera_Displeased_01"
             animation_data.Scale = 0.68 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -80 --done
         end
         if animation_data.Name == "Portrait_Hera_InPerson_Displeased_01_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Hera_Displeased_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Hera_Displeased_01"
             animation_data.Scale = 0.68 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -80 --done
@@ -986,26 +1007,26 @@ sjson.hook(gui_portraits_vfx_path, function(data)
 
         -- Aphrodite
         if animation_data.Name == "Portrait_Aphrodite_Default_01" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Aphrodite_Default_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Aphrodite_Default_01"
             animation_data.Scale = 0.65 --done
             animation_data.OffsetY = -90 --done
             animation_data.OffsetX = -50 --done
         end
         if animation_data.Name == "Portrait_Aphrodite_Default_01_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Aphrodite_Default_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Aphrodite_Default_01"
             animation_data.Scale = 0.65 --done
             animation_data.OffsetY = -90 --done
             animation_data.OffsetX = -50 --done
         end
 
         if animation_data.Name == "Portrait_Aphrodite_Displeased_01" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Aphrodite_Displeased_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Aphrodite_Displeased_01"
             animation_data.Scale = 0.64 --done
             animation_data.OffsetY = -96 --done
             animation_data.OffsetX = -120 --done
         end
         if animation_data.Name == "Portrait_Aphrodite_Displeased_01_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Aphrodite_Displeased_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Aphrodite_Displeased_01"
             animation_data.Scale = 0.64 --done
             animation_data.OffsetY = -96 --done
             animation_data.OffsetX = -120 --done
@@ -1013,26 +1034,26 @@ sjson.hook(gui_portraits_vfx_path, function(data)
 
         -- Circe
         if animation_data.Name == "Portrait_Circe_Default_01" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Circe_Default_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Circe_Default_01"
             animation_data.Scale = 0.65 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -100 --done
         end
         if animation_data.Name == "Portrait_Circe_Default_01_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Circe_Default_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Circe_Default_01"
             animation_data.Scale = 0.65 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -100 --done
         end
 
         if animation_data.Name == "Portrait_Circe_Serious_01" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Circe_Serious_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Circe_Serious_01"
             animation_data.Scale = 0.69 --done
             animation_data.OffsetY = -98 --done
             animation_data.OffsetX = -100 --done
         end
         if animation_data.Name == "Portrait_Circe_Serious_01_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Circe_Serious_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Circe_Serious_01"
             animation_data.Scale = 0.69 --done
             animation_data.OffsetY = -98 --done
             animation_data.OffsetX = -100 --done
@@ -1040,26 +1061,26 @@ sjson.hook(gui_portraits_vfx_path, function(data)
 
         -- Hestia
         if animation_data.Name == "Portrait_Hestia_Default_01" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Hestia_Default_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Hestia_Default_01"
             animation_data.Scale = 0.7 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -50 --done
         end
         if animation_data.Name == "Portrait_Hestia_Default_01_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Hestia_Default_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Hestia_Default_01"
             animation_data.Scale = 0.7 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -50 --done
         end
 
         if animation_data.Name == "Portrait_Hestia_Displeased_01" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Hestia_Displeased_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Hestia_Displeased_01"
             animation_data.Scale = 0.66 --done
             animation_data.OffsetY = -90 --done
             animation_data.OffsetX = -50 --done
         end
         if animation_data.Name == "Portrait_Hestia_Displeased_01_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Hestia_Displeased_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Hestia_Displeased_01"
             animation_data.Scale = 0.66 --done
             animation_data.OffsetY = -90 --done
             animation_data.OffsetX = -50 --done
@@ -1067,52 +1088,52 @@ sjson.hook(gui_portraits_vfx_path, function(data)
 
         -- Demeter
         if animation_data.Name == "Portrait_Demeter_Default_01" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Demeter_Default_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Demeter_Default_01"
             animation_data.Scale = 0.7 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -50 --done
         end
         if animation_data.Name == "Portrait_Demeter_Default_01_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Demeter_Default_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Demeter_Default_01"
             animation_data.Scale = 0.7 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -50 --done
         end
 
         if animation_data.Name == "Portrait_Demeter_InPerson_01" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Demeter_Default_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Demeter_Default_01"
             animation_data.Scale = 0.7 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -50 --done
         end
         if animation_data.Name == "Portrait_Demeter_InPerson_01_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Demeter_Default_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Demeter_Default_01"
             animation_data.Scale = 0.7 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -50 --done
         end
 
         if animation_data.Name == "Portrait_Demeter_Pleased_01" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Demeter_Pleased_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Demeter_Pleased_01"
             animation_data.Scale = 0.68 --done
             animation_data.OffsetY = -95 --done
             animation_data.OffsetX = -50 --done
         end
         if animation_data.Name == "Portrait_Demeter_Pleased_01_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Demeter_Pleased_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Demeter_Pleased_01"
             animation_data.Scale = 0.68 --done
             animation_data.OffsetY = -95 --done
             animation_data.OffsetX = -50 --done
         end
 
         if animation_data.Name == "Portrait_Demeter_InPerson_Pleased_01" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Demeter_Default_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Demeter_Default_01"
             animation_data.Scale = 0.7 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -50 --done
         end
         if animation_data.Name == "Portrait_Demeter_InPerson_Pleased_01_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Demeter_Default_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Demeter_Default_01"
             animation_data.Scale = 0.7 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -50 --done
@@ -1120,52 +1141,52 @@ sjson.hook(gui_portraits_vfx_path, function(data)
 
         -- Hecate
         if animation_data.Name == "Portrait_Hec_Default_01" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Hec_Default_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Hec_Default_01"
             animation_data.Scale = 0.8 --done
             animation_data.OffsetY = -80 --done
             animation_data.OffsetX = -140 --done
         end
         if animation_data.Name == "Portrait_Hec_Default_01_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Hec_Default_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Hec_Default_01"
             animation_data.Scale = 0.8 --done
             animation_data.OffsetY = -80 --done
             animation_data.OffsetX = -140 --done
         end
 
         if animation_data.Name == "Portrait_Hec_Bath_01" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Hec_Bath_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Hec_Bath_01"
             animation_data.Scale = 0.70 --done
             animation_data.OffsetY = -95 --done
             animation_data.OffsetX = -100 --done
         end
         if animation_data.Name == "Portrait_Hec_Bath_01_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Hec_Bath_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Hec_Bath_01"
             animation_data.Scale = 0.70 --done
             animation_data.OffsetY = -95 --done
             animation_data.OffsetX = -100 --done
         end
 
         if animation_data.Name == "Portrait_Hec_Bath_Unveiled_01" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Hec_Bath_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Hec_Bath_01"
             animation_data.Scale = 0.70 --done
             animation_data.OffsetY = -95 --done
             animation_data.OffsetX = -100 --done
         end
         if animation_data.Name == "Portrait_Hec_Bath_Unveiled_01_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Hec_Bath_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Hec_Bath_01"
             animation_data.Scale = 0.70 --done
             animation_data.OffsetY = -95 --done
             animation_data.OffsetX = -100 --done
         end
 
         -- if animation_data.Name == "Portrait_Hec_Baby_01" then
-        --     animation_data.FilePath = "Kuipo-Resprite\\Portrait_Hec_Baby_01"
+        --     animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Hec_Baby_01"
         --     animation_data.Scale = 0.75
         --     animation_data.OffsetY = 0
         --     animation_data.OffsetX = 0
         -- end
         -- if animation_data.Name == "Portrait_Hec_Baby_01_Exit" then
-        --     animation_data.FilePath = "Kuipo-Resprite\\Portrait_Hec_Baby_01"
+        --     animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Hec_Baby_01"
         --     animation_data.Scale = 0.75
         --     animation_data.OffsetY = 0
         --     animation_data.OffsetX = 0
@@ -1173,117 +1194,117 @@ sjson.hook(gui_portraits_vfx_path, function(data)
 
         -- Eris
         if animation_data.Name == "Portrait_Eris_Default_01" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Eris_Default_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Eris_Default_01"
             animation_data.Scale = 0.67 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -50 --done
         end
         if animation_data.Name == "Portrait_Eris_Default_01_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Eris_Default_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Eris_Default_01"
             animation_data.Scale = 0.67 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -50 --done
         end
 
         if animation_data.Name == "Portrait_Eris_Flushed_01" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Eris_Default_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Eris_Default_01"
             animation_data.Scale = 0.67 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -50 --done
         end
         if animation_data.Name == "Portrait_Eris_Flushed_01_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Eris_Default_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Eris_Default_01"
             animation_data.Scale = 0.67 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -50 --done
         end
 
         if animation_data.Name == "Portrait_Eris_FiredUp_01" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Eris_FiredUp_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Eris_FiredUp_01"
             animation_data.Scale = 0.67 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -50 --done
         end
         if animation_data.Name == "Portrait_Eris_FiredUp_01_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Eris_FiredUp_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Eris_FiredUp_01"
             animation_data.Scale = 0.67 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -50 --done
         end
 
         if animation_data.Name == "Portrait_Eris_Unsure_01" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Eris_Unsure_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Eris_Unsure_01"
             animation_data.Scale = 0.67 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -50 --done
         end
         if animation_data.Name == "Portrait_Eris_Unsure_01_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Eris_Unsure_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Eris_Unsure_01"
             animation_data.Scale = 0.67 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -50 --done
         end
 
         if animation_data.Name == "Portrait_Eris_Default_02" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Eris_Default_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Eris_Default_01"
             animation_data.Scale = 0.67 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -50 --done
         end
         if animation_data.Name == "Portrait_Eris_Default_02_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Eris_Default_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Eris_Default_01"
             animation_data.Scale = 0.67 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -50 --done
         end
 
         if animation_data.Name == "Portrait_Eris_Flushed_02" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Eris_Default_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Eris_Default_01"
             animation_data.Scale = 0.67 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -50 --done
         end
         if animation_data.Name == "Portrait_Eris_Flushed_02_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Eris_Default_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Eris_Default_01"
             animation_data.Scale = 0.67 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -50 --done
         end
 
         if animation_data.Name == "Portrait_Eris_FiredUp_02" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Eris_FiredUp_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Eris_FiredUp_01"
             animation_data.Scale = 0.67 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -50 --done
         end
         if animation_data.Name == "Portrait_Eris_FiredUp_02_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Eris_FiredUp_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Eris_FiredUp_01"
             animation_data.Scale = 0.67 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -50 --done
         end
 
         if animation_data.Name == "Portrait_Eris_Unsure_02" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Eris_Unsure_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Eris_Unsure_01"
             animation_data.Scale = 0.67 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -50 --done
         end
         if animation_data.Name == "Portrait_Eris_Unsure_02_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Eris_Unsure_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Eris_Unsure_01"
             animation_data.Scale = 0.67 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -50 --done
         end
 
         if animation_data.Name == "Portrait_Eris_Bath_01" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Eris_Bath_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Eris_Bath_01"
             animation_data.Scale = 0.7 --done
             animation_data.OffsetY = -80 --done
             animation_data.OffsetX = -100 --done
         end
         if animation_data.Name == "Portrait_Eris_Bath_01_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Eris_Bath_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Eris_Bath_01"
             animation_data.Scale = 0.7 --done
             animation_data.OffsetY = -80 --done
             animation_data.OffsetX = -100 --done
@@ -1299,16 +1320,43 @@ sjson.hook(gui_portraits_vfx_path, function(data)
 
         -- Medea
         if animation_data.Name == "Portrait_Medea_Default_01" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Medea_Default_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Medea_Default_01"
             animation_data.Scale = 0.75 --done
             animation_data.OffsetY = -95 --done
             animation_data.OffsetX = -100 --done
         end
         if animation_data.Name == "Portrait_Medea_Default_01_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\Portrait_Medea_Default_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Medea_Default_01"
             animation_data.Scale = 0.75 --done
             animation_data.OffsetY = -95 --done
             animation_data.OffsetX = -100 --done
+        end
+
+        -- Scylla
+        if animation_data.Name == "Portrait_Scylla_Default_01" then
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Scylla_Default_01"
+            animation_data.Scale = 0.69 --done
+            animation_data.OffsetY = -95 --done
+            animation_data.OffsetX = -80 --done
+        end
+        if animation_data.Name == "Portrait_Scylla_Default_01_Exit" then
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Scylla_Default_01"
+            animation_data.Scale = 0.69 --done
+            animation_data.OffsetY = -95 --done
+            animation_data.OffsetX = -80 --done
+        end
+
+        if animation_data.Name == "Portrait_Scylla_Default_02" then
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Scylla_Default_02"
+            animation_data.Scale = 0.57
+            animation_data.OffsetY = -95
+            animation_data.OffsetX = -80
+        end
+        if animation_data.Name == "Portrait_Scylla_Default_02_Exit" then
+            animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Scylla_Default_02"
+            animation_data.Scale = 0.57
+            animation_data.OffsetY = -95
+            animation_data.OffsetX = -80
         end
 
 
@@ -1337,122 +1385,75 @@ sjson.hook(gui_screens_vfx_path, function(data)
 
         -- Codex
         if animation_data.Name == "Codex_Portrait_Dora" then
-            animation_data.FilePath = "Kuipo-Resprite\\CodexPortrait_Dora"
-        end
-        if animation_data.Name == "Codex_Portrait_Dora_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\CodexPortrait_Dora"
+            animation_data.FilePath = "Kuipo-RespriteCodex\\CodexPortrait_Dora"
         end
 
         if animation_data.Name == "Codex_Portrait_Aphrodite" then
-            animation_data.FilePath = "Kuipo-Resprite\\CodexPortrait_Aphrodite"
-        end
-        if animation_data.Name == "Codex_Portrait_Aphrodite_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\CodexPortrait_Aphrodite"
+            animation_data.FilePath = "Kuipo-RespriteCodex\\CodexPortrait_Aphrodite"
         end
 
         if animation_data.Name == "Codex_Portrait_Artemis" then
-            animation_data.FilePath = "Kuipo-Resprite\\CodexPortrait_Artemis"
-        end
-        if animation_data.Name == "Codex_Portrait_Artemis_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\CodexPortrait_Artemis"
+            animation_data.FilePath = "Kuipo-RespriteCodex\\CodexPortrait_Artemis"
         end
 
         if animation_data.Name == "Codex_Portrait_Athena" then
-            animation_data.FilePath = "Kuipo-Resprite\\CodexPortrait_Athena"
-        end
-        if animation_data.Name == "Codex_Portrait_Athena_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\CodexPortrait_Athena"
+            animation_data.FilePath = "Kuipo-RespriteCodex\\CodexPortrait_Athena"
         end
 
         if animation_data.Name == "Codex_Portrait_Chaos" then
-            animation_data.FilePath = "Kuipo-Resprite\\CodexPortrait_Chaos"
-        end
-        if animation_data.Name == "Codex_Portrait_Chaos_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\CodexPortrait_Chaos"
+            animation_data.FilePath = "Kuipo-RespriteCodex\\CodexPortrait_Chaos"
         end
 
         if animation_data.Name == "Codex_Portrait_Circe" then
-            animation_data.FilePath = "Kuipo-Resprite\\CodexPortrait_Circe"
-        end
-        if animation_data.Name == "Codex_Portrait_Circe_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\CodexPortrait_Circe"
+            animation_data.FilePath = "Kuipo-RespriteCodex\\CodexPortrait_Circe"
         end
 
         if animation_data.Name == "Codex_Portrait_Demeter" then
-            animation_data.FilePath = "Kuipo-Resprite\\CodexPortrait_Demeter"
-        end
-        if animation_data.Name == "Codex_Portrait_Demeter_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\CodexPortrait_Demeter"
+            animation_data.FilePath = "Kuipo-RespriteCodex\\CodexPortrait_Demeter"
         end
 
         if animation_data.Name == "Codex_Portrait_Echo" then
-            animation_data.FilePath = "Kuipo-Resprite\\CodexPortrait_Echo"
-        end
-        if animation_data.Name == "Codex_Portrait_Echo_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\CodexPortrait_Echo"
+            animation_data.FilePath = "Kuipo-RespriteCodex\\CodexPortrait_Echo"
         end
 
         if animation_data.Name == "Codex_Portrait_Eris" then
-            animation_data.FilePath = "Kuipo-Resprite\\CodexPortrait_Eris"
-        end
-        if animation_data.Name == "Codex_Portrait_Eris_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\CodexPortrait_Eris"
+            animation_data.FilePath = "Kuipo-RespriteCodex\\CodexPortrait_Eris"
         end
 
         if animation_data.Name == "Codex_Portrait_Hec" then
-            animation_data.FilePath = "Kuipo-Resprite\\CodexPortrait_Hec"
-        end
-        if animation_data.Name == "Codex_Portrait_Hec_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\CodexPortrait_Hec"
+            animation_data.FilePath = "Kuipo-RespriteCodex\\CodexPortrait_Hec"
         end
 
         if animation_data.Name == "Codex_Portrait_Hera" then
-            animation_data.FilePath = "Kuipo-Resprite\\CodexPortrait_Hera"
-        end
-        if animation_data.Name == "Codex_Portrait_Hera_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\CodexPortrait_Hera"
+            animation_data.FilePath = "Kuipo-RespriteCodex\\CodexPortrait_Hera"
         end
 
         if animation_data.Name == "Codex_Portrait_Nyx" then
-            animation_data.FilePath = "Kuipo-Resprite\\CodexPortrait_Nyx"
-        end
-        if animation_data.Name == "Codex_Portrait_Nyx_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\CodexPortrait_Nyx"
+            animation_data.FilePath = "Kuipo-RespriteCodex\\CodexPortrait_Nyx"
         end
 
         if animation_data.Name == "Codex_Portrait_Selene" then
-            animation_data.FilePath = "Kuipo-Resprite\\CodexPortrait_Selene"
-        end
-        if animation_data.Name == "Codex_Portrait_Selene_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\CodexPortrait_Selene"
+            animation_data.FilePath = "Kuipo-RespriteCodex\\CodexPortrait_Selene"
         end
         
         if animation_data.Name == "Codex_Portrait_Hestia" then
-            animation_data.FilePath = "Kuipo-Resprite\\CodexPortrait_Hestia"
-        end
-        if animation_data.Name == "Codex_Portrait_Hestia_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\CodexPortrait_Hestia"
+            animation_data.FilePath = "Kuipo-RespriteCodex\\CodexPortrait_Hestia"
         end
 
         if animation_data.Name == "Codex_Portrait_Medea" then
-            animation_data.FilePath = "Kuipo-Resprite\\CodexPortrait_Medea"
-        end
-        if animation_data.Name == "Codex_Portrait_Medea_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\CodexPortrait_Medea"
+            animation_data.FilePath = "Kuipo-RespriteCodex\\CodexPortrait_Medea"
         end
 
         if animation_data.Name == "Codex_Portrait_Melinoe" then
-            animation_data.FilePath = "Kuipo-Resprite\\CodexPortrait_Melinoe"
-        end
-        if animation_data.Name == "Codex_Portrait_Melinoe_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\CodexPortrait_Melinoe"
+            animation_data.FilePath = "Kuipo-RespriteCodex\\CodexPortrait_Melinoe"
         end
 
         if animation_data.Name == "Codex_Portrait_Nemesis" then
-            animation_data.FilePath = "Kuipo-Resprite\\CodexPortrait_Nemesis"
+            animation_data.FilePath = "Kuipo-RespriteCodex\\CodexPortrait_Nemesis"
         end
-        if animation_data.Name == "Codex_Portrait_Nemesis_Exit" then
-            animation_data.FilePath = "Kuipo-Resprite\\CodexPortrait_Nemesis"
+
+        if animation_data.Name == "Codex_Portrait_Scylla" then
+            animation_data.FilePath = "Kuipo-RespriteCodex\\CodexPortrait_Scylla"
         end
 
     end

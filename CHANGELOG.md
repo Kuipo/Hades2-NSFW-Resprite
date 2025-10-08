@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Added completely new portrait for `Portrait_Scylla_Default_01`
+- Added completely new portrait for `Portrait_Scylla_Default_02`
+- Added new codex portrait for Scylla
+
+### Changed
+
+- The single package with all the images got too large so I split the package into multiple smaller packages
+
+### Removed
+
+- Removed some unnecessary code that did nothing
+
 ## [1.0.7] - 2025-10-08
 
 ### Changed
