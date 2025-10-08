@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Fixed the placement of the Chaos overlay at the end of a Chaos trial
+
 ## [1.0.8] - 2025-10-08
 
 ### Added

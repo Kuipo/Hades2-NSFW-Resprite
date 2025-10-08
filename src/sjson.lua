@@ -723,7 +723,9 @@ sjson.hook(gui_portraits_vfx_path, function(data)
         -- the overlay at the end of a chaos mission
         if animation_data.Name == "ChaosOverlay" then
             animation_data.FilePath = "Kuipo-RespritePortraits\\Portrait_Chaos_Default_01"
-            animation_data.Scale = 0.6
+            animation_data.Scale = 0.75
+            animation_data.OffsetY = -100
+            animation_data.OffsetX = 500
         end
 
         -- Nemesis
