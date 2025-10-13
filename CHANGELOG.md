@@ -7,6 +7,49 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Added code to replace the "Overlay's" for all characters (I believe this should fix all the Godsent Hex portraits)
+- Added all the code required to swap all remaining images for all characters (deactivated until images are created. This should speed up the swapping as I just need to create the image and put it in and adjust placement of the image)
+- Added completely new portrait for `Portrait_Dora_Hardhat`
+- Added completely new portrait for `Portrait_Arachne_Default_01`
+- Added completely new portrait for `Portrait_Arachne_Default_02`
+- Added completely new portrait for `Portrait_Arachne_Brooding_01`
+- Added completely new genderbent portrait for `Portrait_Odysseus_Default_01`
+- Added completely new genderbent portrait for `Portrait_Odysseus_Thoughtful_01`
+- Added completely new genderbent portrait for `Portrait_Odysseus_Bath_01`
+- Added completely new genderbent portrait for `Portrait_Moros_Default_01`
+- Added completely new genderbent portrait for `Portrait_Moros_Pleased_01`
+- Added completely new genderbent portrait for `Portrait_Moros_Bath_01`
+- Added completely new genderbent portrait for `Portrait_Heracles_Default_01`
+- Added completely new genderbent portrait for `Portrait_Hermes_Default_01`
+- Added completely new genderbent portrait for `Portrait_Hermes_Serious_01`
+- Added completely new genderbent portrait for `Portrait_Apollo_Default_01`
+- Added completely new genderbent portrait for `Portrait_Apollo_Displeased_01`
+- Added completely new genderbent portrait for `Portrait_Apollo_Serious_01`
+- Added completely new genderbent portrait for `Portrait_Hephaestus_Default_01`
+- Added completely new genderbent portrait for `Portrait_Hephaestus_Displeased_01`
+- Added completely new genderbent portrait for `Portrait_Poseidon_Default_01`
+- Added completely new genderbent portrait for `Portrait_Poseidon_Displeased_01`
+- Added completely new genderbent portrait for `Portrait_Zeus_Default_01`
+- Added completely new genderbent portrait for `Portrait_Zeus_Pleased_01`
+- Added completely new genderbent portrait for `Portrait_Charon_Default_01`
+- Added new codex portrait for Arachne
+- Added new codex portrait for genderbent Odysseus
+- Added new codex portrait for genderbent Moros
+- Added new codex portrait for genderbent Heracles
+- Added new codex portrait for genderbent Hermes
+- Added new codex portrait for genderbent Apollo
+- Added new codex portrait for genderbent Hephaestus
+- Added new codex portrait for genderbent Poseidon
+- Added new codex portrait for genderbent Zeus
+- Added new codex portrait for genderbent Charon
+
+### Changed
+
+- Siplified some of the code for easier tweaking of placement values and scale
+- Had to break the portraits into two packages to keep the file size small enough for git
+
 ## [1.0.9] - 2025-10-08
 
 ### Changed

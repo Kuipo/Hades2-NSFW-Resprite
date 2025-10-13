@@ -7,11 +7,12 @@
 -- 	so you will most likely want to have it reference
 --	values and functions later defined in `reload.lua`.
 
-local package = "Kuipo-RespriteCodex"
-local package = "Kuipo-RespritePortraits"
+-- local package = "Kuipo-RespriteCodex"
+-- local package = "Kuipo-RespritePortraits1"
+-- local package = "Kuipo-RespritePortraits2"
 
 modutil.mod.Path.Wrap("SetupMap", function(base)
     -- LoadPackages({Name = package})
-    LoadPackages({Names = {"Kuipo-RespriteCodex", "Kuipo-RespritePortraits"}})
+    LoadPackages({Names = {"Kuipo-RespriteCodex", "Kuipo-RespritePortraits1", "Kuipo-RespritePortraits2"}})
     base()
 end)
