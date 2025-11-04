@@ -26,7 +26,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added new codex portrait for genderbent Dionysus
 - Added new codex portrait for genderbent Narcissus
 - Added new codex portrait for genderbent Skelly
--
 
 ## [1.0.10] - 2025-10-13
 
