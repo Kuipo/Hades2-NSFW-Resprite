@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Fixed a bug where the new Hecate image was not showing correctly
+
 ## [1.1.11] - 2025-11-04
 
 ### Added

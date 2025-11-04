@@ -1525,13 +1525,11 @@ sjson.hook(gui_portraits_vfx_path, function(data)
 
         if animation_data.Name == "Portrait_Hec_Averted_01"
         or animation_data.Name == "Portrait_Hec_Averted_01_Exit" then
-            animation_data.FilePath = "Kuipo-RespritePortraits1\\Portrait_Hec_Baby_01"
+            animation_data.FilePath = "Kuipo-RespritePortraits1\\Portrait_Hec_Averted_01"
             animation_data.Scale = 0.75 --done
             animation_data.OffsetY = -95 --done
             animation_data.OffsetX = 0 --done
         end
-
-
 
         -- Eris
         if animation_data.Name == "Portrait_Eris_Default_01"
