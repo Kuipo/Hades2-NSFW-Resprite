@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.12] - 2025-11-04
+
 ### Changed
 
 - Fixed a bug where the new Hecate image was not showing correctly
@@ -163,7 +165,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - First version of the mod published on thunderstore.
 
-[unreleased]: https://github.com/Kuipo/Hades2-NSFW-Resprite/compare/1.1.11...HEAD
+[unreleased]: https://github.com/Kuipo/Hades2-NSFW-Resprite/compare/1.1.12...HEAD
+[1.1.12]: https://github.com/Kuipo/Hades2-NSFW-Resprite/compare/1.1.11...1.1.12
 [1.1.11]: https://github.com/Kuipo/Hades2-NSFW-Resprite/compare/1.0.10...1.1.11
 [1.0.10]: https://github.com/Kuipo/Hades2-NSFW-Resprite/compare/1.0.9...1.0.10
 [1.0.9]: https://github.com/Kuipo/Hades2-NSFW-Resprite/compare/1.0.8...1.0.9
