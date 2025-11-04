@@ -730,82 +730,116 @@ local disabled_animations = {
     Portrait_Charon_Coins_In                        = true,
     Portrait_Charon_Coins                           = true,
     -- -- Schelemeus/Skelly
-    -- Portrait_Skelly_Wiggle1_In                      = true,
-    -- Portrait_Skelly_Wiggle1                         = true,
-    -- Portrait_Skelly_Wiggle2_In                      = true,
-    -- Portrait_Skelly_Wiggle2                         = true,
-    -- Portrait_Skelly_Wiggle3_In                      = true,
-    -- Portrait_Skelly_Wiggle3                         = true,
-    -- Portrait_Skelly_Wiggle4_In                      = true,
-    -- Portrait_Skelly_Wiggle4                         = true,
-    -- Portrait_Skelly_Blink                           = true,
-    -- Portrait_Skelly_MoonGlow_In                     = true,
-    -- Portrait_Skelly_MoonGlow                        = true,
-    -- Portrait_Skelly_MainGlo                         = true,
-    -- Portrait_Skelly_Glint                           = true,
+    Portrait_Skelly_Wiggle1_In                      = true,
+    Portrait_Skelly_Wiggle1                         = true,
+    Portrait_Skelly_Wiggle2_In                      = true,
+    Portrait_Skelly_Wiggle2                         = true,
+    Portrait_Skelly_Wiggle3_In                      = true,
+    Portrait_Skelly_Wiggle3                         = true,
+    Portrait_Skelly_Wiggle4_In                      = true,
+    Portrait_Skelly_Wiggle4                         = true,
+    Portrait_Skelly_Blink                           = true,
+    Portrait_Skelly_MoonGlow_In                     = true,
+    Portrait_Skelly_MoonGlow                        = true,
+    Portrait_Skelly_MainGlo                         = true,
+    Portrait_Skelly_Glint                           = true,
     -- -- Dionysus
-    -- Portrait_Dionysus_Smoke1_In                     = true,
-    -- Portrait_Dionysus_Smoke1                        = true,
-    -- Portrait_Dionysus_Smoke2_In                     = true,
-    -- Portrait_Dionysus_Smoke2                        = true,
-    -- Portrait_Dionysus_Sweat1                        = true,
-    -- Portrait_Dionysus_Sweat2                        = true,
-    -- Portrait_Dionysus_Sweat3                        = true,
-    -- Portrait_Dionysus_Sweat4                        = true,
-    -- Portrait_Dionysus_OlympianGlow_In               = true,
-    -- Portrait_Dionysus_OlympianGlow                  = true,
-    -- Portrait_Dionysus_Wiggle1_In                    = true,
-    -- Portrait_Dionysus_Wiggle1                       = true,
-    -- Portrait_Dionysus_Wiggle2_In                    = true,
-    -- Portrait_Dionysus_Wiggle2                       = true,
-    -- Portrait_Dionysus_Wiggle3_In                    = true,
-    -- Portrait_Dionysus_Wiggle3                       = true,
-    -- Portrait_Dionysus_Wiggle4_In                    = true,
-    -- Portrait_Dionysus_Wiggle4                       = true,
-    -- Portrait_Dionysus_GrapeGlo                      = true,
-    -- Portrait_Dionysus_MainGlo                       = true,
-    -- Portrait_Dionysus_Glint                         = true,
-    -- Portrait_Dionysus_Blink                         = true,
+    Portrait_Dionysus_Smoke1_In                     = true,
+    Portrait_Dionysus_Smoke1                        = true,
+    Portrait_Dionysus_Smoke2_In                     = true,
+    Portrait_Dionysus_Smoke2                        = true,
+    Portrait_Dionysus_Sweat1                        = true,
+    Portrait_Dionysus_Sweat2                        = true,
+    Portrait_Dionysus_Sweat3                        = true,
+    Portrait_Dionysus_Sweat4                        = true,
+    Portrait_Dionysus_OlympianGlow_In               = true,
+    Portrait_Dionysus_OlympianGlow                  = true,
+    Portrait_Dionysus_Wiggle1_In                    = true,
+    Portrait_Dionysus_Wiggle1                       = true,
+    Portrait_Dionysus_Wiggle2_In                    = true,
+    Portrait_Dionysus_Wiggle2                       = true,
+    Portrait_Dionysus_Wiggle3_In                    = true,
+    Portrait_Dionysus_Wiggle3                       = true,
+    Portrait_Dionysus_Wiggle4_In                    = true,
+    Portrait_Dionysus_Wiggle4                       = true,
+    Portrait_Dionysus_GrapeGlo                      = true,
+    Portrait_Dionysus_MainGlo                       = true,
+    Portrait_Dionysus_Glint                         = true,
+    Portrait_Dionysus_Blink                         = true,
     -- -- Polyphemus
-    -- Portrait_Polyphemus_MoonGlow_In                 = true,
-    -- Portrait_Polyphemus_MoonGlow                    = true,
-    -- Portrait_Polyphemus_Wiggle1_In                  = true,
-    -- Portrait_Polyphemus_Wiggle1                     = true,
-    -- Portrait_Polyphemus_Wiggle2_In                  = true,
-    -- Portrait_Polyphemus_Wiggle2                     = true,
-    -- Portrait_Polyphemus_Wiggle3_In                  = true,
-    -- Portrait_Polyphemus_Wiggle3                     = true,
-    -- Portrait_Polyphemus_Wiggle4_In                  = true,
-    -- Portrait_Polyphemus_Wiggle4                     = true,
-    -- Portrait_Polyphemus_MainGlo                     = true,
-    -- Portrait_Polyphemus_GemsGlo                     = true,
-    -- Portrait_Polyphemus_Glint                       = true,
+    Portrait_Polyphemus_MoonGlow_In                 = true,
+    Portrait_Polyphemus_MoonGlow                    = true,
+    Portrait_Polyphemus_Wiggle1_In                  = true,
+    Portrait_Polyphemus_Wiggle1                     = true,
+    Portrait_Polyphemus_Wiggle2_In                  = true,
+    Portrait_Polyphemus_Wiggle2                     = true,
+    Portrait_Polyphemus_Wiggle3_In                  = true,
+    Portrait_Polyphemus_Wiggle3                     = true,
+    Portrait_Polyphemus_Wiggle4_In                  = true,
+    Portrait_Polyphemus_Wiggle4                     = true,
+    Portrait_Polyphemus_MainGlo                     = true,
+    Portrait_Polyphemus_GemsGlo                     = true,
+    Portrait_Polyphemus_Glint                       = true,
     -- -- Ares
-    -- Portrait_Ares_OlympianGlow_In                   = true,
-    -- Portrait_Ares_OlympianGlow                      = true,
-    -- Portrait_Ares_Drip1                             = true,
-    -- Portrait_Ares_Drip2                             = true,
-    -- Portrait_Ares_Drip3                             = true,
-    -- Portrait_Ares_Drip4                             = true,
-    -- Portrait_Ares_Drip5                             = true,
-    -- Portrait_Ares_Drip6                             = true,
-    -- Portrait_Ares_Drip7                             = true,
-    -- Portrait_Ares_Drip8                             = true,
-    -- Portrait_Ares_Drip9                             = true,
-    -- Portrait_Ares_Wiggle1_In                        = true,
-    -- Portrait_Ares_Wiggle1                           = true,
-    -- Portrait_Ares_Wiggle2_In                        = true,
-    -- Portrait_Ares_Wiggle2                           = true,
-    -- Portrait_Ares_Wiggle3_In                        = true,
-    -- Portrait_Ares_Wiggle3                           = true,
-    -- Portrait_Ares_Wiggle4_In                        = true,
-    -- Portrait_Ares_Wiggle4                           = true,
-    -- Portrait_Ares_Particles                         = true,
-    -- Portrait_Ares_Particles2                        = true,
-    -- Portrait_Ares_GlowHelme                         = true,
-    -- Portrait_Ares_MainGlo                           = true,
-    -- Portrait_Ares_Glint                             = true,
-    -- Portrait_Ares_Blink                             = true,
+    Portrait_Ares_OlympianGlow_In                   = true,
+    Portrait_Ares_OlympianGlow                      = true,
+    Portrait_Ares_Drip1                             = true,
+    Portrait_Ares_Drip2                             = true,
+    Portrait_Ares_Drip3                             = true,
+    Portrait_Ares_Drip4                             = true,
+    Portrait_Ares_Drip5                             = true,
+    Portrait_Ares_Drip6                             = true,
+    Portrait_Ares_Drip7                             = true,
+    Portrait_Ares_Drip8                             = true,
+    Portrait_Ares_Drip9                             = true,
+    Portrait_Ares_Wiggle1_In                        = true,
+    Portrait_Ares_Wiggle1                           = true,
+    Portrait_Ares_Wiggle2_In                        = true,
+    Portrait_Ares_Wiggle2                           = true,
+    Portrait_Ares_Wiggle3_In                        = true,
+    Portrait_Ares_Wiggle3                           = true,
+    Portrait_Ares_Wiggle4_In                        = true,
+    Portrait_Ares_Wiggle4                           = true,
+    Portrait_Ares_Particles                         = true,
+    Portrait_Ares_Particles2                        = true,
+    Portrait_Ares_GlowHelme                         = true,
+    Portrait_Ares_MainGlo                           = true,
+    Portrait_Ares_Glint                             = true,
+    Portrait_Ares_Blink                             = true,
+    -- -- Narcissus
+    Portrait_Narcissus_Wiggle1_In                   = true,
+    Portrait_Narcissus_Wiggle1                      = true,
+    Portrait_Narcissus_Wiggle2_In                   = true,
+    Portrait_Narcissus_Wiggle2                      = true,
+    Portrait_Narcissus_Wiggle3_In                   = true,
+    Portrait_Narcissus_Wiggle3                      = true,
+    Portrait_Narcissus_Wiggle4_In                   = true,
+    Portrait_Narcissus_Wiggle4                      = true,
+    Portrait_Narcissus_Blink                        = true,
+    Portrait_Narcissus_Grass2_In                    = true,
+    Portrait_Narcissus_Grass2                       = true,
+    Portrait_Narcissus_Grass1_In                    = true,
+    Portrait_Narcissus_Grass1                       = true,
+    Portrait_Narcissus_MoonGlow_In                  = true,
+    Portrait_Narcissus_MoonGlow                     = true,
+    Portrait_Narcissus_MainGlo                      = true,
+    Portrait_Narcissus_Grass3_In                    = true,
+    Portrait_Narcissus_Grass3                       = true,
+    Portrait_Narcissus_Glint                        = true,
+    -- Achilles
+    Portrait_Achilles_Wiggle1_In                       = true,
+    Portrait_Achilles_Wiggle1                          = true,
+    Portrait_Achilles_Wiggle2_In                       = true,
+    Portrait_Achilles_Wiggle2                          = true,
+    Portrait_Achilles_Wiggle3_In                       = true,
+    Portrait_Achilles_Wiggle3                          = true,
+    Portrait_Achilles_Wiggle4_In                       = true,
+    Portrait_Achilles_Wiggle4                          = true,
+    Portrait_Achilles_Blink                            = true,
+    Portrait_Achilles_MainGlow                         = true,
+    Portrait_Achilles_Glint                            = true,
+    Portrait_Achilles_MoonGlow_In                      = true,
+    Portrait_Achilles_MoonGlow                         = true,
     -- -- Prometheus
     -- Portrait_Prometheus_MoonGlow_In                 = true,
     -- Portrait_Prometheus_MoonGlow                    = true,
@@ -844,26 +878,6 @@ local disabled_animations = {
     -- Portrait_PrometheusDefeated_MainGlo             = true,
     -- Portrait_PrometheusDefeated_Glint               = true,
     -- Portrait_PrometheusDefeated_Blink               = true,
-    -- -- Narcissus
-    -- Portrait_Narcissus_Wiggle1_In                   = true,
-    -- Portrait_Narcissus_Wiggle1                      = true,
-    -- Portrait_Narcissus_Wiggle2_In                   = true,
-    -- Portrait_Narcissus_Wiggle2                      = true,
-    -- Portrait_Narcissus_Wiggle3_In                   = true,
-    -- Portrait_Narcissus_Wiggle3                      = true,
-    -- Portrait_Narcissus_Wiggle4_In                   = true,
-    -- Portrait_Narcissus_Wiggle4                      = true,
-    -- Portrait_Narcissus_Blink                        = true,
-    -- Portrait_Narcissus_Grass2_In                    = true,
-    -- Portrait_Narcissus_Grass2                       = true,
-    -- Portrait_Narcissus_Grass1_In                    = true,
-    -- Portrait_Narcissus_Grass1                       = true,
-    -- Portrait_Narcissus_MoonGlow_In                  = true,
-    -- Portrait_Narcissus_MoonGlow                     = true,
-    -- Portrait_Narcissus_MainGlo                      = true,
-    -- Portrait_Narcissus_Grass3_In                    = true,
-    -- Portrait_Narcissus_Grass3                       = true,
-    -- Portrait_Narcissus_Glint                        = true,
     -- -- Hades
     -- Portrait_HadesRestored_MoonGlow_In              = true,
     -- Portrait_HadesRestored_MoonGlow                 = true,
@@ -1503,11 +1517,21 @@ sjson.hook(gui_portraits_vfx_path, function(data)
 
         -- if animation_data.Name == "Portrait_Hec_Baby_01"
         -- or animation_data.Name == "Portrait_Hec_Baby_01_Exit" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Hec_Baby_01"
+        --     animation_data.FilePath = "Kuipo-RespritePortraits1\\Portrait_Hec_Baby_01"
         --     animation_data.Scale = 0.75
         --     animation_data.OffsetY = 0
         --     animation_data.OffsetX = 0
         -- end
+
+        if animation_data.Name == "Portrait_Hec_Averted_01"
+        or animation_data.Name == "Portrait_Hec_Averted_01_Exit" then
+            animation_data.FilePath = "Kuipo-RespritePortraits1\\Portrait_Hec_Baby_01"
+            animation_data.Scale = 0.75 --done
+            animation_data.OffsetY = -95 --done
+            animation_data.OffsetX = 0 --done
+        end
+
+
 
         -- Eris
         if animation_data.Name == "Portrait_Eris_Default_01"
@@ -1861,53 +1885,74 @@ sjson.hook(gui_portraits_vfx_path, function(data)
         end
 
         -- Schelemeus/Skelly
-        -- Need images first
-        -- if animation_data.Name == "Portrait_Skelly_Default_01"
-        -- or animation_data.Name == "Portrait_Skelly_Default_01_Exit" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Skelly_Default_01"
-        --     animation_data.Scale = 0.69
-        --     animation_data.OffsetY = -95
-        --     animation_data.OffsetX = -80
-        -- end
+        if animation_data.Name == "Portrait_Skelly_Default_01"
+        or animation_data.Name == "Portrait_Skelly_Default_01_Exit" then
+            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Skelly_Default_01"
+            animation_data.Scale = 0.75 --done
+            animation_data.OffsetY = -100 --done
+            animation_data.OffsetX = -100 --done
+        end
 
         -- Dionysus
-        -- Need images first
-        -- if animation_data.Name == "Portrait_Dionysus_Default_01"
-        -- or animation_data.Name == "Portrait_Dionysus_Default_01_Exit" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Dionysus_Default_01"
-        --     animation_data.Scale = 0.69
-        --     animation_data.OffsetY = -95
-        --     animation_data.OffsetX = -80
-        -- end
+        if animation_data.Name == "Portrait_Dionysus_Default_01"
+        or animation_data.Name == "Portrait_Dionysus_Default_01_Exit" then
+            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Dionysus_Default_01"
+            animation_data.Scale = 0.68 --done
+            animation_data.OffsetY = -100 --done
+            animation_data.OffsetX = -100 --done
+        end
 
         -- Polyphemus/Cyclops
-        -- Need images first
-        -- if animation_data.Name == "Portrait_Cyclops_Default_01"
-        -- or animation_data.Name == "Portrait_Cyclops_Default_01_Exit" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Cyclops_Default_01"
-        --     animation_data.Scale = 0.69
-        --     animation_data.OffsetY = -95
-        --     animation_data.OffsetX = -80
-        -- end
+        if animation_data.Name == "Portrait_Cyclops_Default_01"
+        or animation_data.Name == "Portrait_Cyclops_Default_01_Exit" then
+            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Cyclops_Default_01"
+            animation_data.Scale = 0.70 --done
+            animation_data.OffsetY = -95 --done
+            animation_data.OffsetX = -100 --done
+        end
 
         -- Ares
-        -- Need images first
-        -- if animation_data.Name == "Portrait_Ares_Default_01"
-        -- or animation_data.Name == "Portrait_Ares_Default_01_Exit" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Ares_Default_01"
-        --     animation_data.Scale = 0.69
-        --     animation_data.OffsetY = -95
-        --     animation_data.OffsetX = -80
-        -- end
+        if animation_data.Name == "Portrait_Ares_Default_01"
+        or animation_data.Name == "Portrait_Ares_Default_01_Exit" then
+            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Ares_Default_01"
+            animation_data.Scale = 0.69 --done
+            animation_data.OffsetY = -95 --done
+            animation_data.OffsetX = -80 --done
+        end
 
-        -- Need images first
-        -- if animation_data.Name == "Portrait_Ares_Displeased_01"
-        -- or animation_data.Name == "Portrait_Ares_Displeased_01_Exit" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Ares_Displeased_01"
-        --     animation_data.Scale = 0.69
-        --     animation_data.OffsetY = -95
-        --     animation_data.OffsetX = -80
-        -- end
+        if animation_data.Name == "Portrait_Ares_Displeased_01"
+        or animation_data.Name == "Portrait_Ares_Displeased_01_Exit" then
+            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Ares_Displeased_01"
+            animation_data.Scale = 0.70 --done
+            animation_data.OffsetY = -100 --done
+            animation_data.OffsetX = -100 --done
+        end
+
+        -- Narcissus
+        if animation_data.Name == "Portrait_Narcissus_Default_01"
+        or animation_data.Name == "Portrait_Narcissus_Default_01_Exit" then
+            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Narcissus_Default_01"
+            animation_data.Scale = 0.70 --done
+            animation_data.OffsetY = -100 --done
+            animation_data.OffsetX = 100 --done
+        end
+
+        if animation_data.Name == "Portrait_Narcissus_Averted_01"
+        or animation_data.Name == "Portrait_Narcissus_Averted_01_Exit" then
+            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Narcissus_Averted_01"
+            animation_data.Scale = 0.67 --done
+            animation_data.OffsetY = -100 --done
+            animation_data.OffsetX = -100 --done
+        end
+
+        -- Achilles
+        if animation_data.Name == "Portrait_Achilles_Default_01"
+        or animation_data.Name == "Portrait_Achilles_Default_01_Exit" then
+            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Achilles_Default_01"
+            animation_data.Scale = 0.78 --done
+            animation_data.OffsetY = -100 --done
+            animation_data.OffsetX = -100 --done
+        end
 
         -- Prometheus
         -- Need images first
@@ -1923,25 +1968,6 @@ sjson.hook(gui_portraits_vfx_path, function(data)
         -- if animation_data.Name == "Portrait_Prometheus_Defeated_01"
         -- or animation_data.Name == "Portrait_Prometheus_Defeated_01_Exit" then
         --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Prometheus_Defeated_01"
-        --     animation_data.Scale = 0.69
-        --     animation_data.OffsetY = -95
-        --     animation_data.OffsetX = -80
-        -- end
-
-        -- Narcissus
-        -- Need images first
-        -- if animation_data.Name == "Portrait_Narcissus_Default_01"
-        -- or animation_data.Name == "Portrait_Narcissus_Default_01_Exit" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Narcissus_Default_01"
-        --     animation_data.Scale = 0.69
-        --     animation_data.OffsetY = -95
-        --     animation_data.OffsetX = -80
-        -- end
-
-        -- Need images first
-        -- if animation_data.Name == "Portrait_Narcissus_Averted_01"
-        -- or animation_data.Name == "Portrait_Narcissus_Averted_01_Exit" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Narcissus_Averted_01"
         --     animation_data.Scale = 0.69
         --     animation_data.OffsetY = -95
         --     animation_data.OffsetX = -80
@@ -2323,12 +2349,12 @@ sjson.hook(gui_portraits_vfx_path, function(data)
             animation_data.OffsetX = -100 --done
         end
 
-        -- if animation_data.Name == "AresOverlay" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Ares_Default_01"
-        --     animation_data.Scale = 0.69
-        --     animation_data.OffsetY = -95
-        --     animation_data.OffsetX = -80
-        -- end
+        if animation_data.Name == "AresOverlay" then
+            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Ares_Default_01"
+            animation_data.Scale = 0.69
+            animation_data.OffsetY = -95
+            animation_data.OffsetX = -80
+        end
 
         if animation_data.Name == "DemeterOverlay" then
             animation_data.FilePath = "Kuipo-RespritePortraits1\\Portrait_Demeter_Default_01"
@@ -2383,16 +2409,16 @@ sjson.hook(gui_portraits_vfx_path, function(data)
         --     animation_data.OffsetX = -100
         -- end
         -- if animation_data.Name == "Portrait_Eris_Default_01" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Zeus_Pleased_01"
-        --     animation_data.Scale = 0.7
+        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Achilles_Default_01"
+        --     animation_data.Scale = 0.78
         --     animation_data.OffsetY = -100
         --     animation_data.OffsetX = -100
         -- end
-        -- if animation_data.Name == "Portrait_Nemesis_Default_01" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Moros_Bath_01"
-        --     animation_data.Scale = 0.69
-        --     animation_data.OffsetY = -95
-        --     animation_data.OffsetX = -80
+        -- if animation_data.Name == "Portrait_Mel_Default_01" then
+        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Achilles_Default_01"
+        --     animation_data.Scale = 0.78
+        --     animation_data.OffsetY = -100
+        --     animation_data.OffsetX = -100
         -- end
         -- FOR DEBUG PURPOSES
 
@@ -2534,28 +2560,32 @@ sjson.hook(gui_screens_vfx_path, function(data)
             animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Charon"
         end
 
-        -- if animation_data.Name == "Codex_Portrait_Skelly" then
-        --     animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Skelly"
-        -- end
+        if animation_data.Name == "Codex_Portrait_Skelly" then
+            animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Skelly"
+        end
 
-        -- if animation_data.Name == "Codex_Portrait_Dionysus" then
-        --     animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Dionysus"
-        -- end
+        if animation_data.Name == "Codex_Portrait_Dionysus" then
+            animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Dionysus"
+        end
 
-        -- if animation_data.Name == "Codex_Portrait_Polyphemus" then
-        --     animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Polyphemus"
-        -- end
+        if animation_data.Name == "Codex_Portrait_Polyphemus" then
+            animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Cyclops"
+        end
 
-        -- if animation_data.Name == "Codex_Portrait_Ares" then
-        --     animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Ares"
-        -- end
+        if animation_data.Name == "Codex_Portrait_Ares" then
+            animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Ares"
+        end
+
+        if animation_data.Name == "Codex_Portrait_Narcissus" then
+            animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Narcissus"
+        end
+
+        if animation_data.Name == "Codex_Portrait_Achilles" then
+            animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Achilles"
+        end
 
         -- if animation_data.Name == "Codex_Portrait_Prometheus" then
         --     animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Prometheus"
-        -- end
-
-        -- if animation_data.Name == "Codex_Portrait_Narcissus" then
-        --     animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Narcissus"
         -- end
 
         -- if animation_data.Name == "Codex_Portrait_Hades" then

@@ -7,6 +7,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Added completely new portrait for `Portraits_Hecate_Averted_01` that was added in the 1.1 patch
+- Added completely new genderbent portrait for `Portraits_Achilles_01` that was added in the 1.1 patch
+- Added new codex portrait for genderbent Achilles that was added in the 1.1 patch
+- Added completely new genderbent portrait for `Portrait_Ares_Default_01`
+- Added completely new genderbent portrait for `Portrait_Ares_Displeased_01`
+- Added completely new genderbent portrait for `Portrait_Cyclops_Default_01`
+- Added completely new genderbent portrait for `Portrait_Dionysus_Default_01`
+- Added completely new genderbent portrait for `Portrait_Narcissus_Averted_01`
+- Added completely new genderbent portrait for `Portrait_Narcissus_Default_01`
+- Added completely new genderbent portrait for `Portrait_Skelly_Default_01`
+- Added new codex portrait for genderbent Ares
+- Added new codex portrait for genderbent Cyclops
+- Added new codex portrait for genderbent Dionysus
+- Added new codex portrait for genderbent Narcissus
+- Added new codex portrait for genderbent Skelly
+- 
 ## [1.0.10] - 2025-10-13
 
 ### Added
