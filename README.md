@@ -12,8 +12,8 @@ LoRA: hades_pony_v2-1
 
 ## Features
 
-- Replaces 78 character portraits most female characters and genderbends many of the male characters in the game
-- Replaces 34 portraits for the codex
+- Replaces 83 character portraits, all of the female characters and genderbends most of the male characters in the game
+- Replaces 35 portraits for the codex
 
 ## Install
 
