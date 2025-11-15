@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Added completely new portrait for `Portrait_Persephone_Queen_01`
+- Added completely new portrait for `Portrait_Persephone_Queen_Apprehensive_01`
+- Added completely new portrait for `Portrait_Persephone_Queen_Calculating_01`
+- Added completely new portrait for `Portrait_Persephone_Queen_FiredUp_01`
+- Added completely new portrait for `Portrait_Persephone_Queen_Joyful_01`
+- Added new codex portrait for Persephone
+
 ## [1.1.12] - 2025-11-04
 
 ### Changed

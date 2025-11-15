@@ -931,19 +931,19 @@ local disabled_animations = {
     -- Portrait_Icarus_Bath_Sweat1a                    = true,
     -- Portrait_Icarus_Bath_Sweat2a                    = true,
     -- -- Persephone
-    -- Portrait_Persephone_MoonGlow_In                 = true,
-    -- Portrait_Persephone_MoonGlow                    = true,
-    -- Portrait_Persephone_Wiggle1_In                  = true,
-    -- Portrait_Persephone_Wiggle1                     = true,
-    -- Portrait_Persephone_Wiggle2_In                  = true,
-    -- Portrait_Persephone_Wiggle2                     = true,
-    -- Portrait_Persephone_Wiggle3_In                  = true,
-    -- Portrait_Persephone_Wiggle3                     = true,
-    -- Portrait_Persephone_MainGlow                    = true,
-    -- Portrait_Persephone_LaurelsGlow                 = true,
-    -- Portrait_Persephone_Glint                       = true,
-    -- Portrait_Persephone_Blink                       = true,
-    -- Portrait_Persephone_Blink_Calculating           = true,
+    Portrait_Persephone_MoonGlow_In                 = true,
+    Portrait_Persephone_MoonGlow                    = true,
+    Portrait_Persephone_Wiggle1_In                  = true,
+    Portrait_Persephone_Wiggle1                     = true,
+    Portrait_Persephone_Wiggle2_In                  = true,
+    Portrait_Persephone_Wiggle2                     = true,
+    Portrait_Persephone_Wiggle3_In                  = true,
+    Portrait_Persephone_Wiggle3                     = true,
+    Portrait_Persephone_MainGlow                    = true,
+    Portrait_Persephone_LaurelsGlow                 = true,
+    Portrait_Persephone_Glint                       = true,
+    Portrait_Persephone_Blink                       = true,
+    Portrait_Persephone_Blink_Calculating           = true,
     -- -- Zagreus
     -- Portrait_ZagreusDefault_MoonGlow_In             = true,
     -- Portrait_ZagreusDefault_MoonGlow                = true,
@@ -2062,45 +2062,45 @@ sjson.hook(gui_portraits_vfx_path, function(data)
         -- end
 
         -- Persephone
-        -- if animation_data.Name == "Portrait_Persephone_Queen_01"
-        -- or animation_data.Name == "Portrait_Persephone_Queen_01_Exit" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Persephone_Queen_01"
-        --     animation_data.Scale = 0.69
-        --     animation_data.OffsetY = -95
-        --     animation_data.OffsetX = -80
-        -- end
+        if animation_data.Name == "Portrait_Persephone_Queen_01"
+        or animation_data.Name == "Portrait_Persephone_Queen_01_Exit" then
+            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Persephone_Queen_01"
+            animation_data.Scale = 0.66
+            animation_data.OffsetY = -98
+            animation_data.OffsetX = -100
+        end
 
-        -- if animation_data.Name == "Portrait_Persephone_Queen_Calculating_01"
-        -- or animation_data.Name == "Portrait_Persephone_Queen_Calculating_01_Exit" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Persephone_Queen_Calculating_01"
-        --     animation_data.Scale = 0.69
-        --     animation_data.OffsetY = -95
-        --     animation_data.OffsetX = -80
-        -- end
+        if animation_data.Name == "Portrait_Persephone_Queen_Calculating_01"
+        or animation_data.Name == "Portrait_Persephone_Queen_Calculating_01_Exit" then
+            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Persephone_Queen_Calculating_01"
+            animation_data.Scale = 0.66
+            animation_data.OffsetY = -98
+            animation_data.OffsetX = -80
+        end
 
-        -- if animation_data.Name == "Portrait_Persephone_Queen_Apprehensive_01"
-        -- or animation_data.Name == "Portrait_Persephone_Queen_Apprehensive_01_Exit" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Persephone_Queen_Apprehensive_01"
-        --     animation_data.Scale = 0.69
-        --     animation_data.OffsetY = -95
-        --     animation_data.OffsetX = -80
-        -- end
+        if animation_data.Name == "Portrait_Persephone_Queen_Apprehensive_01"
+        or animation_data.Name == "Portrait_Persephone_Queen_Apprehensive_01_Exit" then
+            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Persephone_Queen_Apprehensive_01"
+            animation_data.Scale = 0.66
+            animation_data.OffsetY = -92
+            animation_data.OffsetX = -100
+        end
 
-        -- if animation_data.Name == "Portrait_Persephone_Queen_FiredUp_01"
-        -- or animation_data.Name == "Portrait_Persephone_Queen_FiredUp_01_Exit" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Persephone_Queen_FiredUp_01"
-        --     animation_data.Scale = 0.69
-        --     animation_data.OffsetY = -95
-        --     animation_data.OffsetX = -80
-        -- end
+        if animation_data.Name == "Portrait_Persephone_Queen_FiredUp_01"
+        or animation_data.Name == "Portrait_Persephone_Queen_FiredUp_01_Exit" then
+            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Persephone_Queen_FiredUp_01"
+            animation_data.Scale = 0.67
+            animation_data.OffsetY = -90
+            animation_data.OffsetX = -90
+        end
 
-        -- if animation_data.Name == "Portrait_Persephone_Queen_Joyful_01"
-        -- or animation_data.Name == "Portrait_Persephone_Queen_Joyful_01_Exit" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Persephone_Queen_Joyful_01"
-        --     animation_data.Scale = 0.69
-        --     animation_data.OffsetY = -95
-        --     animation_data.OffsetX = -80
-        -- end
+        if animation_data.Name == "Portrait_Persephone_Queen_Joyful_01"
+        or animation_data.Name == "Portrait_Persephone_Queen_Joyful_01_Exit" then
+            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Persephone_Queen_Joyful_01"
+            animation_data.Scale = 0.7
+            animation_data.OffsetY = -100
+            animation_data.OffsetX = -100
+        end
 
         -- Zagreus
         -- if animation_data.Name == "Portrait_Zag_Default_01"
@@ -2406,17 +2406,23 @@ sjson.hook(gui_portraits_vfx_path, function(data)
         --     animation_data.OffsetY = -100
         --     animation_data.OffsetX = -100
         -- end
-        -- if animation_data.Name == "Portrait_Eris_Default_01" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Achilles_Default_01"
-        --     animation_data.Scale = 0.78
+        -- if animation_data.Name == "Portrait_Mel_Vulnerable_01" then
+        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Persephone_Queen_FiredUp_01"
+        --     animation_data.Scale = 0.67
+        --     animation_data.OffsetY = -90
+        --     animation_data.OffsetX = -90
+        -- end
+        -- if animation_data.Name == "Portrait_Nemesis_Default_01" then
+        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Persephone_Queen_Joyful_01"
+        --     animation_data.Scale = 0.7
         --     animation_data.OffsetY = -100
         --     animation_data.OffsetX = -100
         -- end
         -- if animation_data.Name == "Portrait_Mel_Default_01" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Achilles_Default_01"
-        --     animation_data.Scale = 0.78
-        --     animation_data.OffsetY = -100
-        --     animation_data.OffsetX = -100
+        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Persephone_Queen_Calculating_01"
+        --     animation_data.Scale = 0.66
+        --     animation_data.OffsetY = -98
+        --     animation_data.OffsetX = -80
         -- end
         -- FOR DEBUG PURPOSES
 
@@ -2596,9 +2602,9 @@ sjson.hook(gui_screens_vfx_path, function(data)
         --     animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Icarus"
         -- end
 
-        -- if animation_data.Name == "Codex_Portrait_Persephone" then
-        --     animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Persephone"
-        -- end
+        if animation_data.Name == "Codex_Portrait_Persephone" then
+            animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Persephone"
+        end
 
         -- if animation_data.Name == "Codex_Portrait_Zagreus" then
         --     animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Zagreus"
