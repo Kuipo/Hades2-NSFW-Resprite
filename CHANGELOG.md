@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.14] - 2025-11-16
+
 ### Changed
 
 - Fixed an issue where the `Portrait_PersephoneJoy` effects like glow/wiggle/glint/blink were still showing from the original art.
@@ -180,7 +182,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - First version of the mod published on thunderstore.
 
-[unreleased]: https://github.com/Kuipo/Hades2-NSFW-Resprite/compare/1.1.13...HEAD
+[unreleased]: https://github.com/Kuipo/Hades2-NSFW-Resprite/compare/1.1.14...HEAD
+[1.1.14]: https://github.com/Kuipo/Hades2-NSFW-Resprite/compare/1.1.13...1.1.14
 [1.1.13]: https://github.com/Kuipo/Hades2-NSFW-Resprite/compare/1.1.12...1.1.13
 [1.1.12]: https://github.com/Kuipo/Hades2-NSFW-Resprite/compare/1.1.11...1.1.12
 [1.1.11]: https://github.com/Kuipo/Hades2-NSFW-Resprite/compare/1.0.10...1.1.11
