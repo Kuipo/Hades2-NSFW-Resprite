@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Fixed an issue where the `Portrait_PersephoneJoy` effects like glow/wiggle/glint/blink were still showing from the original art.
+
 ## [1.1.13] - 2025-11-15
 
 ### Added
