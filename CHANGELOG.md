@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.15] - 2025-11-18
+
 ### Added
 
 - Added completely new genderbent portrait for `Portrait_Icarus_Default_01`
@@ -190,7 +192,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - First version of the mod published on thunderstore.
 
-[unreleased]: https://github.com/Kuipo/Hades2-NSFW-Resprite/compare/1.1.14...HEAD
+[unreleased]: https://github.com/Kuipo/Hades2-NSFW-Resprite/compare/1.1.15...HEAD
+[1.1.15]: https://github.com/Kuipo/Hades2-NSFW-Resprite/compare/1.1.14...1.1.15
 [1.1.14]: https://github.com/Kuipo/Hades2-NSFW-Resprite/compare/1.1.13...1.1.14
 [1.1.13]: https://github.com/Kuipo/Hades2-NSFW-Resprite/compare/1.1.12...1.1.13
 [1.1.12]: https://github.com/Kuipo/Hades2-NSFW-Resprite/compare/1.1.11...1.1.12
