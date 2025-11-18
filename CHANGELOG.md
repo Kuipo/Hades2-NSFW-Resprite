@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Added completely new genderbent portrait for `Portrait_Icarus_Default_01`
+- Added completely new genderbent portrait for `Portrait_Icarus_Pleased_01`
+- Added completely new genderbent portrait for `Portrait_Icarus_Unsure_01`
+- Added completely new genderbent portrait for `Portrait_Icarus_Bath_01`
+- Added new codex portrait for genderbent Icarus
+
 ## [1.1.14] - 2025-11-16
 
 ### Changed

@@ -12,8 +12,8 @@ LoRA: hades_pony_v2-1
 
 ## Features
 
-- Replaces 83 character portraits, all of the female characters and genderbends most of the male characters in the game
-- Replaces 35 portraits for the codex
+- Replaces 87 character portraits, all of the female characters and genderbends most of the male characters in the game
+- Replaces 36 portraits for the codex
 
 ## Install
 
@@ -28,6 +28,7 @@ LoRA: hades_pony_v2-1
 3. Add additional images to replace the following images:
     `Portrait_Eris_Default_02` (Aspect of Lucifer version)
     `Portrait_Hec_Bath_01` (The masked version)
+    `Portrait_Icarus_Default_01` I would like to make this a ghost version and then use the existing image for `Portrait_Icarus_Whole_01`
 4. Replace the "Flushed" versions of the images with completely new images for variation or at least ones where the character is flushed. Currently they just show the non-flushed version of the image.
 5. Finish replacing the following images:
     `Portraits_Hecate_Baby_01.png`
@@ -39,7 +40,7 @@ LoRA: hades_pony_v2-1
     `Portrait_Hestia_Default_01_Wrath`
     `Portrait_Demeter_Default_01_Wrath`
     `Portrait_Aphrodite_Default_01_Wrath`
-8. Figure out what the `_Alt` codex entries are and if I need to replace them.
+9. Figure out what the `_Alt` codex entries are and if I need to replace them.
     `Codex_Portrait_Echo_Alt`
     `Codex_Portrait_Chronos_Alt`
     `Codex_Portrait_Hades_Alt`

@@ -892,42 +892,42 @@ local disabled_animations = {
     -- Portrait_HadesRestored_Glint                    = true,
     -- Portrait_HadesRestored_Blink                    = true,
     -- -- Icarus
-    -- Portrait_Icarus_MoonGlow_In                     = true,
-    -- Portrait_Icarus_MoonGlow                        = true,
-    -- Portrait_Icarus_MoonGlow2_In                    = true,
-    -- Portrait_Icarus_MoonGlow2                       = true,
-    -- Portrait_Icarus_GhostEffect_In                  = true,
-    -- Portrait_Icarus_GhostEffect                     = true,
-    -- Portrait_Icarus_GhostEffect2_In                 = true,
-    -- Portrait_Icarus_GhostEffect2                    = true,
-    -- Portrait_Icarus_GhostEffect3_In                 = true,
-    -- Portrait_Icarus_GhostEffect3                    = true,
-    -- Portrait_Icarus_GhostEffect4_In                 = true,
-    -- Portrait_Icarus_GhostEffect4                    = true,
-    -- Portrait_Icarus_Wings1_I                        = true,
-    -- Portrait_Icarus_Wings2_I                        = true,
-    -- Portrait_Icarus_Wiggle1_In                      = true,
-    -- Portrait_Icarus_Wiggle1                         = true,
-    -- Portrait_Icarus_Wiggle2_In                      = true,
-    -- Portrait_Icarus_Wiggle2                         = true,
-    -- Portrait_Icarus_Wiggle3_In                      = true,
-    -- Portrait_Icarus_Wiggle3                         = true,
-    -- Portrait_Icarus_Wiggle4_In                      = true,
-    -- Portrait_Icarus_Wiggle4                         = true,
-    -- Portrait_Icarus_Wiggle5_In                      = true,
-    -- Portrait_Icarus_Wiggle5                         = true,
-    -- Portrait_Icarus_Blink                           = true,
-    -- Portrait_Icarus_MainGlo                         = true,
-    -- Portrait_Icarus_Glint                           = true,
-    -- Portrait_IcarusPleased_MoonGlow_In              = true,
-    -- Portrait_IcarusPleased_MoonGlow                 = true,
-    -- Portrait_IcarusPleased_Wiggle_In                = true,
-    -- Portrait_IcarusPleased_Wiggle                   = true,
-    -- Portrait_IcarusPleased_Blink                    = true,
-    -- Portrait_Icarus_BathWiggle1_In                  = true,
-    -- Portrait_Icarus_BathWiggle1                     = true,
-    -- Portrait_Icarus_Bath_Blink                      = true,
-    -- Portrait_Icarus_BathGlow                        = true,
+    Portrait_Icarus_MoonGlow_In                     = true,
+    Portrait_Icarus_MoonGlow                        = true,
+    Portrait_Icarus_MoonGlow2_In                    = true,
+    Portrait_Icarus_MoonGlow2                       = true,
+    Portrait_Icarus_GhostEffect_In                  = true,
+    Portrait_Icarus_GhostEffect                     = true,
+    Portrait_Icarus_GhostEffect2_In                 = true,
+    Portrait_Icarus_GhostEffect2                    = true,
+    Portrait_Icarus_GhostEffect3_In                 = true,
+    Portrait_Icarus_GhostEffect3                    = true,
+    Portrait_Icarus_GhostEffect4_In                 = true,
+    Portrait_Icarus_GhostEffect4                    = true,
+    Portrait_Icarus_Wings1_I                        = true,
+    Portrait_Icarus_Wings2_I                        = true,
+    Portrait_Icarus_Wiggle1_In                      = true,
+    Portrait_Icarus_Wiggle1                         = true,
+    Portrait_Icarus_Wiggle2_In                      = true,
+    Portrait_Icarus_Wiggle2                         = true,
+    Portrait_Icarus_Wiggle3_In                      = true,
+    Portrait_Icarus_Wiggle3                         = true,
+    Portrait_Icarus_Wiggle4_In                      = true,
+    Portrait_Icarus_Wiggle4                         = true,
+    Portrait_Icarus_Wiggle5_In                      = true,
+    Portrait_Icarus_Wiggle5                         = true,
+    Portrait_Icarus_Blink                           = true,
+    Portrait_Icarus_MainGlo                         = true,
+    Portrait_Icarus_Glint                           = true,
+    Portrait_IcarusPleased_MoonGlow_In              = true,
+    Portrait_IcarusPleased_MoonGlow                 = true,
+    Portrait_IcarusPleased_Wiggle_In                = true,
+    Portrait_IcarusPleased_Wiggle                   = true,
+    Portrait_IcarusPleased_Blink                    = true,
+    Portrait_Icarus_BathWiggle1_In                  = true,
+    Portrait_Icarus_BathWiggle1                     = true,
+    Portrait_Icarus_Bath_Blink                      = true,
+    Portrait_Icarus_BathGlow                        = true,
     -- Portrait_Icarus_Bath_Sweat1a                    = true,
     -- Portrait_Icarus_Bath_Sweat2a                    = true,
     -- -- Persephone
@@ -1542,6 +1542,14 @@ sjson.hook(gui_portraits_vfx_path, function(data)
             animation_data.OffsetX = 0 --done
         end
 
+        -- if animation_data.Name == "Portrait_Hec_Frozen_01"
+        -- or animation_data.Name == "Portrait_Hec_Frozen_01_Exit" then
+        --     animation_data.FilePath = "Kuipo-RespritePortraits1\\Portrait_Hec_Frozen_01"
+        --     animation_data.Scale = 0.75
+        --     animation_data.OffsetY = -95
+        --     animation_data.OffsetX = 0
+        -- end
+
         -- Eris
         if animation_data.Name == "Portrait_Eris_Default_01"
         or animation_data.Name == "Portrait_Eris_Default_01_Exit" then
@@ -2000,77 +2008,77 @@ sjson.hook(gui_portraits_vfx_path, function(data)
         -- end
 
         -- Icarus
-        -- if animation_data.Name == "Portrait_Icarus_Default_01"
-        -- or animation_data.Name == "Portrait_Icarus_Default_01_Exit" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Icarus_Default_01"
-        --     animation_data.Scale = 0.69
-        --     animation_data.OffsetY = -95
-        --     animation_data.OffsetX = -80
-        -- end
+        if animation_data.Name == "Portrait_Icarus_Default_01"
+        or animation_data.Name == "Portrait_Icarus_Default_01_Exit" then
+            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Icarus_Default_01"
+            animation_data.Scale = 0.68 --done
+            animation_data.OffsetY = -100 --done
+            animation_data.OffsetX = -120 --done
+        end
 
-        -- if animation_data.Name == "Portrait_Icarus_Flushed_01"
-        -- or animation_data.Name == "Portrait_Icarus_Flushed_01_Exit" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Icarus_Flushed_01"
-        --     animation_data.Scale = 0.69
-        --     animation_data.OffsetY = -95
-        --     animation_data.OffsetX = -80
-        -- end
+        if animation_data.Name == "Portrait_Icarus_Flushed_01"
+        or animation_data.Name == "Portrait_Icarus_Flushed_01_Exit" then
+            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Icarus_Default_01"
+            animation_data.Scale = 0.68 --done
+            animation_data.OffsetY = -100 --done
+            animation_data.OffsetX = -120 --done
+        end
 
-        -- if animation_data.Name == "Portrait_Icarus_Pleased_01"
-        -- or animation_data.Name == "Portrait_Icarus_Pleased_01_Exit" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Icarus_Pleased_01"
-        --     animation_data.Scale = 0.69
-        --     animation_data.OffsetY = -95
-        --     animation_data.OffsetX = -80
-        -- end
+        if animation_data.Name == "Portrait_Icarus_Pleased_01"
+        or animation_data.Name == "Portrait_Icarus_Pleased_01_Exit" then
+            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Icarus_Pleased_01"
+            animation_data.Scale = 0.66 --done
+            animation_data.OffsetY = -100 --done
+            animation_data.OffsetX = -50 --done
+        end
 
-        -- if animation_data.Name == "Portrait_Icarus_Unsure_01"
-        -- or animation_data.Name == "Portrait_Icarus_Unsure_01_Exit" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Icarus_Unsure_01"
-        --     animation_data.Scale = 0.69
-        --     animation_data.OffsetY = -95
-        --     animation_data.OffsetX = -80
-        -- end
+        if animation_data.Name == "Portrait_Icarus_Unsure_01"
+        or animation_data.Name == "Portrait_Icarus_Unsure_01_Exit" then
+            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Icarus_Unsure_01"
+            animation_data.Scale = 0.67 --done
+            animation_data.OffsetY = -90 --done
+            animation_data.OffsetX = 50 --done
+        end
 
-        -- if animation_data.Name == "Portrait_Icarus_Whole_01"
-        -- or animation_data.Name == "Portrait_Icarus_Whole_01_Exit" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Icarus_Whole_01"
-        --     animation_data.Scale = 0.69
-        --     animation_data.OffsetY = -95
-        --     animation_data.OffsetX = -80
-        -- end
+        if animation_data.Name == "Portrait_Icarus_Whole_01"
+        or animation_data.Name == "Portrait_Icarus_Whole_01_Exit" then
+            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Icarus_Default_01"
+            animation_data.Scale = 0.68 --done
+            animation_data.OffsetY = -100 --done
+            animation_data.OffsetX = -120 --done
+        end
 
-        -- if animation_data.Name == "Portrait_Icarus_Whole_Flushed_01"
-        -- or animation_data.Name == "Portrait_Icarus_Whole_Flushed_01_Exit" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Icarus_Whole_Flushed_01"
-        --     animation_data.Scale = 0.69
-        --     animation_data.OffsetY = -95
-        --     animation_data.OffsetX = -80
-        -- end
+        if animation_data.Name == "Portrait_Icarus_Whole_Flushed_01"
+        or animation_data.Name == "Portrait_Icarus_Whole_Flushed_01_Exit" then
+            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Icarus_Default_01"
+            animation_data.Scale = 0.68 --done
+            animation_data.OffsetY = -100 --done
+            animation_data.OffsetX = -120 --done
+        end
 
-        -- if animation_data.Name == "Portrait_Icarus_Whole_Pleased_01"
-        -- or animation_data.Name == "Portrait_Icarus_Whole_Pleased_01_Exit" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Icarus_Whole_Pleased_01"
-        --     animation_data.Scale = 0.69
-        --     animation_data.OffsetY = -95
-        --     animation_data.OffsetX = -80
-        -- end
+        if animation_data.Name == "Portrait_Icarus_Whole_Pleased_01"
+        or animation_data.Name == "Portrait_Icarus_Whole_Pleased_01_Exit" then
+            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Icarus_Pleased_01"
+            animation_data.Scale = 0.66 --done
+            animation_data.OffsetY = -100 --done
+            animation_data.OffsetX = -50 --done
+        end
 
-        -- if animation_data.Name == "Portrait_Icarus_Whole_Unsure_01"
-        -- or animation_data.Name == "Portrait_Icarus_Whole_Unsure_01_Exit" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Icarus_Whole_Unsure_01"
-        --     animation_data.Scale = 0.69
-        --     animation_data.OffsetY = -95
-        --     animation_data.OffsetX = -80
-        -- end
+        if animation_data.Name == "Portrait_Icarus_Whole_Unsure_01"
+        or animation_data.Name == "Portrait_Icarus_Whole_Unsure_01_Exit" then
+            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Icarus_Unsure_01"
+            animation_data.Scale = 0.67 --done
+            animation_data.OffsetY = -90 --done
+            animation_data.OffsetX = 50 --done
+        end
 
-        -- if animation_data.Name == "Portrait_Icarus_Bath_01"
-        -- or animation_data.Name == "Portrait_Icarus_Bath_01_Exit" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Icarus_Bath_01"
-        --     animation_data.Scale = 0.69
-        --     animation_data.OffsetY = -95
-        --     animation_data.OffsetX = -80
-        -- end
+        if animation_data.Name == "Portrait_Icarus_Bath_01"
+        or animation_data.Name == "Portrait_Icarus_Bath_01_Exit" then
+            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Icarus_Bath_01"
+            animation_data.Scale = 0.70 --done
+            animation_data.OffsetY = -100 --done
+            animation_data.OffsetX = -100 --done
+        end
 
         -- Persephone
         if animation_data.Name == "Portrait_Persephone_Queen_01"
@@ -2316,12 +2324,12 @@ sjson.hook(gui_portraits_vfx_path, function(data)
             animation_data.OffsetX = -100 --done
         end
 
-        -- if animation_data.Name == "IcarusOverlay" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Icarus_Default_01"
-        --     animation_data.Scale = 0.69
-        --     animation_data.OffsetY = -95
-        --     animation_data.OffsetX = -80
-        -- end
+        if animation_data.Name == "IcarusOverlay" then
+            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Icarus_Default_01"
+            animation_data.Scale = 0.68 --done
+            animation_data.OffsetY = -100 --done
+            animation_data.OffsetX = -120 --done
+        end
 
         if animation_data.Name == "HermesOverlay" then
             animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Hermes_Default_01"
@@ -2418,22 +2426,22 @@ sjson.hook(gui_portraits_vfx_path, function(data)
         --     animation_data.OffsetX = -100
         -- end
         -- if animation_data.Name == "Portrait_Mel_Vulnerable_01" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Persephone_Queen_FiredUp_01"
-        --     animation_data.Scale = 0.67
-        --     animation_data.OffsetY = -90
-        --     animation_data.OffsetX = -90
+        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Icarus_Bath_01"
+        --     animation_data.Scale = 0.66
+        --     animation_data.OffsetY = -100
+        --     animation_data.OffsetX = -120
         -- end
         -- if animation_data.Name == "Portrait_Nemesis_Default_01" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Persephone_Queen_Joyful_01"
-        --     animation_data.Scale = 0.7
+        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Icarus_Bath_01"
+        --     animation_data.Scale = 0.70
         --     animation_data.OffsetY = -100
         --     animation_data.OffsetX = -100
         -- end
         -- if animation_data.Name == "Portrait_Mel_Default_01" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Persephone_Queen_Calculating_01"
-        --     animation_data.Scale = 0.66
-        --     animation_data.OffsetY = -98
-        --     animation_data.OffsetX = -80
+        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Icarus_Bath_01"
+        --     animation_data.Scale = 0.71
+        --     animation_data.OffsetY = -100
+        --     animation_data.OffsetX = -100
         -- end
         -- FOR DEBUG PURPOSES
 
@@ -2609,9 +2617,9 @@ sjson.hook(gui_screens_vfx_path, function(data)
         -- -- What is this codex entry?
         -- -- Codex_Portrait_Hades_Alt
 
-        -- if animation_data.Name == "Codex_Portrait_Icarus" then
-        --     animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Icarus"
-        -- end
+        if animation_data.Name == "Codex_Portrait_Icarus" then
+            animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Icarus"
+        end
 
         if animation_data.Name == "Codex_Portrait_Persephone" then
             animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Persephone"
