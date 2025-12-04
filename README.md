@@ -6,7 +6,7 @@ This is currently written for The 1.1 release of Hades 2. NOTE: You must be usin
 
 ### Disclaimer:
 
-This mod is made using AI image generation. Secifically Invoke AI using the following:
+This mod is made using AI image generation. Specifically Invoke AI using the following:
 Model: perfectPonyXL_v40
 LoRA: hades_pony_v2-1
 
@@ -14,12 +14,23 @@ LoRA: hades_pony_v2-1
 
 - Replaces 87 character portraits, all of the female characters and genderbends most of the male characters in the game
 - Replaces 36 portraits for the codex
+- Setting to disable the genderbent characters and only change the female characters in the game
 
 ## Install
 
 - Install r2modman
 - Enable the Show NSFW content in r2modman filter
-- Install this mod and it's dependancies
+- Install this mod and it's dependencies
+
+## Access Settings
+
+- You must be in game to access the settings menu
+- Press the Insert button to access the mod menu
+- Navigate to the menu in the top left: Mods > Kuipo-NSFWResprite > Configure
+- You can disable the setting if you wish to have the default male characters
+- Close the mod menu by pressing Insert again
+
+NOTE: You MUST restart the game for this setting to take effect. Changing the setting and not resetting the game will not show any difference.
 
 ## ToDo
 
