@@ -20,7 +20,7 @@ LoRA: hades_pony_v2-1
 
 - Install r2modman
 - Enable the Show NSFW content in r2modman filter
-- Install this mod and it's dependancies
+- Install this mod and it's dependencies
 
 ## Access Settings
 
