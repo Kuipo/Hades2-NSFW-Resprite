@@ -6,7 +6,7 @@ This is currently written for The 1.1 release of Hades 2. NOTE: You must be usin
 
 ### Disclaimer:
 
-This mod is made using AI image generation. Secifically Invoke AI using the following:
+This mod is made using AI image generation. Specifically Invoke AI using the following:
 Model: perfectPonyXL_v40
 LoRA: hades_pony_v2-1
 
