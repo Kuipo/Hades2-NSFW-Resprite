@@ -547,6 +547,34 @@ local disabled_animations = {
     Portrait_ArachneBrooding_Wiggle                 = true,
     Portrait_ArachneBrooding_Main                   = true,
     Portrait_ArachneBrooding_Blink                  = true,
+    -- Persephone
+    Portrait_Persephone_MoonGlow_In                 = true,
+    Portrait_Persephone_MoonGlow                    = true,
+    Portrait_Persephone_Wiggle1_In                  = true,
+    Portrait_Persephone_Wiggle1                     = true,
+    Portrait_Persephone_Wiggle2_In                  = true,
+    Portrait_Persephone_Wiggle2                     = true,
+    Portrait_Persephone_Wiggle3_In                  = true,
+    Portrait_Persephone_Wiggle3                     = true,
+    Portrait_Persephone_MainGlow                    = true,
+    Portrait_Persephone_LaurelsGlow                 = true,
+    Portrait_Persephone_Glint                       = true,
+    Portrait_Persephone_Blink                       = true,
+    Portrait_Persephone_Blink_Calculating           = true,
+    Portrait_PersephoneJoy_MoonGlow_In              = true,
+    Portrait_PersephoneJoy_MoonGlow                 = true,
+    Portrait_PersephoneJoy_Wiggle1_In               = true,
+    Portrait_PersephoneJoy_Wiggle1                  = true,
+    Portrait_PersephoneJoy_Wiggle2_In               = true,
+    Portrait_PersephoneJoy_Wiggle2                  = true,
+    Portrait_PersephoneJoy_Wiggle3_In               = true,
+    Portrait_PersephoneJoy_Wiggle3                  = true,
+    Portrait_PersephoneJoy_MainGlow                 = true,
+    Portrait_PersephoneJoy_Glint                    = true,
+    Portrait_PersephoneJoy_Blink                    = true,
+}
+
+local disabled_genderbent_animations = {
     -- Odysseus
     Portrait_Odysseus_Wiggle1_In                    = true,
     Portrait_Odysseus_Wiggle1                       = true,
@@ -729,7 +757,7 @@ local disabled_animations = {
     Portrait_Charon_Glint                           = true,
     Portrait_Charon_Coins_In                        = true,
     Portrait_Charon_Coins                           = true,
-    -- -- Schelemeus/Skelly
+    -- Schelemeus/Skelly
     Portrait_Skelly_Wiggle1_In                      = true,
     Portrait_Skelly_Wiggle1                         = true,
     Portrait_Skelly_Wiggle2_In                      = true,
@@ -743,7 +771,7 @@ local disabled_animations = {
     Portrait_Skelly_MoonGlow                        = true,
     Portrait_Skelly_MainGlo                         = true,
     Portrait_Skelly_Glint                           = true,
-    -- -- Dionysus
+    -- Dionysus
     Portrait_Dionysus_Smoke1_In                     = true,
     Portrait_Dionysus_Smoke1                        = true,
     Portrait_Dionysus_Smoke2_In                     = true,
@@ -766,7 +794,7 @@ local disabled_animations = {
     Portrait_Dionysus_MainGlo                       = true,
     Portrait_Dionysus_Glint                         = true,
     Portrait_Dionysus_Blink                         = true,
-    -- -- Polyphemus
+    -- Polyphemus
     Portrait_Polyphemus_MoonGlow_In                 = true,
     Portrait_Polyphemus_MoonGlow                    = true,
     Portrait_Polyphemus_Wiggle1_In                  = true,
@@ -780,7 +808,7 @@ local disabled_animations = {
     Portrait_Polyphemus_MainGlo                     = true,
     Portrait_Polyphemus_GemsGlo                     = true,
     Portrait_Polyphemus_Glint                       = true,
-    -- -- Ares
+    -- Ares
     Portrait_Ares_OlympianGlow_In                   = true,
     Portrait_Ares_OlympianGlow                      = true,
     Portrait_Ares_Drip1                             = true,
@@ -806,7 +834,7 @@ local disabled_animations = {
     Portrait_Ares_MainGlo                           = true,
     Portrait_Ares_Glint                             = true,
     Portrait_Ares_Blink                             = true,
-    -- -- Narcissus
+    -- Narcissus
     Portrait_Narcissus_Wiggle1_In                   = true,
     Portrait_Narcissus_Wiggle1                      = true,
     Portrait_Narcissus_Wiggle2_In                   = true,
@@ -891,7 +919,7 @@ local disabled_animations = {
     -- Portrait_HadesRestored_LaurelsGlo               = true,
     -- Portrait_HadesRestored_Glint                    = true,
     -- Portrait_HadesRestored_Blink                    = true,
-    -- -- Icarus
+    -- Icarus
     Portrait_Icarus_MoonGlow_In                     = true,
     Portrait_Icarus_MoonGlow                        = true,
     Portrait_Icarus_MoonGlow2_In                    = true,
@@ -930,31 +958,6 @@ local disabled_animations = {
     Portrait_Icarus_BathGlow                        = true,
     -- Portrait_Icarus_Bath_Sweat1a                    = true,
     -- Portrait_Icarus_Bath_Sweat2a                    = true,
-    -- -- Persephone
-    Portrait_Persephone_MoonGlow_In                 = true,
-    Portrait_Persephone_MoonGlow                    = true,
-    Portrait_Persephone_Wiggle1_In                  = true,
-    Portrait_Persephone_Wiggle1                     = true,
-    Portrait_Persephone_Wiggle2_In                  = true,
-    Portrait_Persephone_Wiggle2                     = true,
-    Portrait_Persephone_Wiggle3_In                  = true,
-    Portrait_Persephone_Wiggle3                     = true,
-    Portrait_Persephone_MainGlow                    = true,
-    Portrait_Persephone_LaurelsGlow                 = true,
-    Portrait_Persephone_Glint                       = true,
-    Portrait_Persephone_Blink                       = true,
-    Portrait_Persephone_Blink_Calculating           = true,
-    Portrait_PersephoneJoy_MoonGlow_In              = true,
-    Portrait_PersephoneJoy_MoonGlow                 = true,
-    Portrait_PersephoneJoy_Wiggle1_In               = true,
-    Portrait_PersephoneJoy_Wiggle1                  = true,
-    Portrait_PersephoneJoy_Wiggle2_In               = true,
-    Portrait_PersephoneJoy_Wiggle2                  = true,
-    Portrait_PersephoneJoy_Wiggle3_In               = true,
-    Portrait_PersephoneJoy_Wiggle3                  = true,
-    Portrait_PersephoneJoy_MainGlow                 = true,
-    Portrait_PersephoneJoy_Glint                    = true,
-    Portrait_PersephoneJoy_Blink                    = true,
     -- -- Zagreus
     -- Portrait_ZagreusDefault_MoonGlow_In             = true,
     -- Portrait_ZagreusDefault_MoonGlow                = true,
@@ -1087,11 +1090,18 @@ local disabled_animations = {
     -- Portrait_ChronosPained_Blink                    = true,
     -- Portrait_ChronosPained_MoonGlow_In              = true,
     -- Portrait_ChronosPained_MoonGlow                 = true,
-
 }
 
-function is_animation_disabled(str)
-    return disabled_animations[str] == true
+function is_animation_disabled(name)
+    if disabled_animations[name] then
+        return true
+    end
+
+    if config.genderBentEnabled and disabled_genderbent_animations[name] then
+        return true
+    end
+
+    return false
 end
 
 -- Haven't decided if I want to use this, it would shorten the file but may make it less readable overall
@@ -1682,404 +1692,6 @@ sjson.hook(gui_portraits_vfx_path, function(data)
             animation_data.OffsetX = -80 --done
         end
 
-        -- Odysseus
-        if animation_data.Name == "Portrait_Odysseus_Default_01"
-        or animation_data.Name == "Portrait_Odysseus_Default_01_Exit" then
-            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Odysseus_Default_01"
-            animation_data.Scale = 0.66 --done
-            animation_data.OffsetY = -95 --done
-            animation_data.OffsetX = -100 --done
-        end
-
-        if animation_data.Name == "Portrait_Odysseus_Thoughtful_01"
-        or animation_data.Name == "Portrait_Odysseus_Thoughtful_01_Exit" then
-            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Odysseus_Thoughtful_01"
-            animation_data.Scale = 0.64 --done
-            animation_data.OffsetY = -98 --done
-            animation_data.OffsetX = -30 --done
-        end
-
-        if animation_data.Name == "Portrait_Odysseus_Bath_01"
-        or animation_data.Name == "Portrait_Odysseus_Bath_01_Exit" then
-            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Odysseus_Bath_01"
-            animation_data.Scale = 0.7 --done
-            animation_data.OffsetY = -96 --done
-            animation_data.OffsetX = -100 --done
-        end
-
-        -- Moros
-        if animation_data.Name == "Portrait_Moros_Default_01"
-        or animation_data.Name == "Portrait_Moros_Default_01_Exit" then
-            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Moros_Default_01"
-            animation_data.Scale = 0.66 --done
-            animation_data.OffsetY = -120 --done
-            animation_data.OffsetX = -10 --done
-        end
-
-        if animation_data.Name == "Portrait_Moros_Pleased_01"
-        or animation_data.Name == "Portrait_Moros_Pleased_01_Exit" then
-            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Moros_Pleased_01"
-            animation_data.Scale = 0.66 --done
-            animation_data.OffsetY = -100 --done
-            animation_data.OffsetX = -50 --done
-        end
-
-        if animation_data.Name == "Portrait_Moros_Flushed_01"
-        or animation_data.Name == "Portrait_Moros_Flushed_01_Exit" then
-            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Moros_Default_01"
-            animation_data.Scale = 0.69 --done
-            animation_data.OffsetY = -95 --done
-            animation_data.OffsetX = -80 --done
-        end
-
-        if animation_data.Name == "Portrait_Moros_Bath_01"
-        or animation_data.Name == "Portrait_Moros_Bath_01_Exit" then
-            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Moros_Bath_01"
-            animation_data.Scale = 0.71 --done
-            animation_data.OffsetY = -110 --done
-            animation_data.OffsetX = -60 --done
-        end
-
-        -- Heracles
-        if animation_data.Name == "Portrait_Heracles_Default_01"
-        or animation_data.Name == "Portrait_Heracles_Default_01_Exit" then
-            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Heracles_Default_01"
-            animation_data.Scale = 0.58 --done
-            animation_data.OffsetY = -110 --done
-            animation_data.OffsetX = -90 --done
-        end
-
-        -- Hermes
-        if animation_data.Name == "Portrait_Hermes_Default_01"
-        or animation_data.Name == "Portrait_Hermes_Default_01_Exit" then
-            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Hermes_Default_01"
-            animation_data.Scale = 0.66 --done
-            animation_data.OffsetY = -100 --done
-            animation_data.OffsetX = -85 --done
-        end
-
-        if animation_data.Name == "Portrait_Hermes_Serious_01"
-        or animation_data.Name == "Portrait_Hermes_Serious_01_Exit" then
-            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Hermes_Serious_01"
-            animation_data.Scale = 0.7 --done
-            animation_data.OffsetY = -100 --done
-            animation_data.OffsetX = -80 --done
-        end
-
-        if animation_data.Name == "Portrait_Hermes_InPerson_01"
-        or animation_data.Name == "Portrait_Hermes_InPerson_01_Exit" then
-            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Hermes_Default_01"
-            animation_data.Scale = 0.66 --done
-            animation_data.OffsetY = -100 --done
-            animation_data.OffsetX = -85 --done
-        end
-
-        if animation_data.Name == "Portrait_Hermes_InPerson_Serious_01"
-        or animation_data.Name == "Portrait_Hermes_InPerson_Serious_01_Exit" then
-             animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Hermes_Serious_01"
-            animation_data.Scale = 0.7 --done
-            animation_data.OffsetY = -100 --done
-            animation_data.OffsetX = -80 --done
-        end
-
-        -- Apollo
-        if animation_data.Name == "Portrait_Apollo_Default_01"
-        or animation_data.Name == "Portrait_Apollo_Default_01_Exit" then
-            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Apollo_Default_01"
-            animation_data.Scale = 0.66 --done
-            animation_data.OffsetY = -95 --done
-            animation_data.OffsetX = -40 --done
-        end
-
-        if animation_data.Name == "Portrait_Apollo_Displeased_01"
-        or animation_data.Name == "Portrait_Apollo_Displeased_01_Exit" then
-            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Apollo_Displeased_01"
-            animation_data.Scale = 0.69 --done
-            animation_data.OffsetY = -100 --done
-            animation_data.OffsetX = -100 --done
-        end
-
-        if animation_data.Name == "Portrait_Apollo_Serious_01"
-        or animation_data.Name == "Portrait_Apollo_Serious_01_Exit" then
-            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Apollo_Serious_01"
-            animation_data.Scale = 0.7 --done
-            animation_data.OffsetY = -98 --done
-            animation_data.OffsetX = -100 --done
-        end
-
-        if animation_data.Name == "Portrait_Apollo_InPerson_01"
-        or animation_data.Name == "Portrait_Apollo_InPerson_01_Exit" then
-            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Apollo_Default_01"
-            animation_data.Scale = 0.66 --done
-            animation_data.OffsetY = -95 --done
-            animation_data.OffsetX = -40 --done
-        end
-
-
-        if animation_data.Name == "Portrait_Apollo_InPerson_Serious_01"
-        or animation_data.Name == "Portrait_Apollo_InPerson_Serious_01_Exit" then
-            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Apollo_Serious_01"
-            animation_data.Scale = 0.7 --done
-            animation_data.OffsetY = -98 --done
-            animation_data.OffsetX = -100 --done
-        end
-
-        -- Hephaestus
-        if animation_data.Name == "Portrait_Hephaestus_Default_01"
-        or animation_data.Name == "Portrait_Hephaestus_Default_01_Exit" then
-            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Hephaestus_Default_01"
-            animation_data.Scale = 0.7 --done
-            animation_data.OffsetY = -85 --done
-            animation_data.OffsetX = -100 --done
-        end
-
-
-        if animation_data.Name == "Portrait_Hephaestus_Displeased_01"
-        or animation_data.Name == "Portrait_Hephaestus_Displeased_01_Exit" then
-            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Hephaestus_Displeased_01"
-            animation_data.Scale = 0.7 --done
-            animation_data.OffsetY = -98 --done
-            animation_data.OffsetX = -100 --done
-        end
-
-        -- Poseidon
-        if animation_data.Name == "Portrait_Poseidon_Default_01"
-        or animation_data.Name == "Portrait_Poseidon_Default_01_Exit" then
-            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Poseidon_Default_01"
-            animation_data.Scale = 0.65 --done
-            animation_data.OffsetY = -108 --done
-            animation_data.OffsetX = -20 --done
-        end
-
-        if animation_data.Name == "Portrait_Poseidon_Displeased_01"
-        or animation_data.Name == "Portrait_Poseidon_Displeased_01_Exit" then
-            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Poseidon_Displeased_01"
-            animation_data.Scale = 0.66 --done
-            animation_data.OffsetY = -98 --done
-            animation_data.OffsetX = -100 --done
-        end
-
-        -- Zeus
-        if animation_data.Name == "Portrait_Zeus_Default_01"
-        or animation_data.Name == "Portrait_Zeus_Default_01_Exit" then
-            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Zeus_Default_01"
-            animation_data.Scale = 0.7 --done
-            animation_data.OffsetY = -95 --done
-            animation_data.OffsetX = -55 --done
-        end
-
-        if animation_data.Name == "Portrait_Zeus_Pleased_01"
-        or animation_data.Name == "Portrait_Zeus_Pleased_01_Exit" then
-            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Zeus_Pleased_01"
-            animation_data.Scale = 0.7 --done
-            animation_data.OffsetY = -100 --done
-            animation_data.OffsetX = -100 --done
-        end
-
-        if animation_data.Name == "Portrait_Zeus_InPerson_01"
-        or animation_data.Name == "Portrait_Zeus_InPerson_01_Exit" then
-            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Zeus_Default_01"
-            animation_data.Scale = 0.7 --done
-            animation_data.OffsetY = -95 --done
-            animation_data.OffsetX = -55 --done
-        end
-
-        if animation_data.Name == "Portrait_Zeus_InPerson_Pleased_01"
-        or animation_data.Name == "Portrait_Zeus_InPerson_Pleased_01_Exit" then
-            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Zeus_Pleased_01"
-            animation_data.Scale = 0.7 --done
-            animation_data.OffsetY = -100 --done
-            animation_data.OffsetX = -100 --done
-        end
-
-        -- Charon
-        if animation_data.Name == "Portrait_Charon_Default_01"
-        or animation_data.Name == "Portrait_Charon_Default_01_Exit" then
-            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Charon_Default_01"
-            animation_data.Scale = 0.69 --done
-            animation_data.OffsetY = -100 --done
-            animation_data.OffsetX = -10 --done
-        end
-
-        -- Schelemeus/Skelly
-        if animation_data.Name == "Portrait_Skelly_Default_01"
-        or animation_data.Name == "Portrait_Skelly_Default_01_Exit" then
-            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Skelly_Default_01"
-            animation_data.Scale = 0.75 --done
-            animation_data.OffsetY = -100 --done
-            animation_data.OffsetX = -100 --done
-        end
-
-        -- Dionysus
-        if animation_data.Name == "Portrait_Dionysus_Default_01"
-        or animation_data.Name == "Portrait_Dionysus_Default_01_Exit" then
-            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Dionysus_Default_01"
-            animation_data.Scale = 0.68 --done
-            animation_data.OffsetY = -100 --done
-            animation_data.OffsetX = -100 --done
-        end
-
-        -- Polyphemus/Cyclops
-        if animation_data.Name == "Portrait_Cyclops_Default_01"
-        or animation_data.Name == "Portrait_Cyclops_Default_01_Exit" then
-            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Cyclops_Default_01"
-            animation_data.Scale = 0.70 --done
-            animation_data.OffsetY = -95 --done
-            animation_data.OffsetX = -100 --done
-        end
-
-        -- Ares
-        if animation_data.Name == "Portrait_Ares_Default_01"
-        or animation_data.Name == "Portrait_Ares_Default_01_Exit" then
-            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Ares_Default_01"
-            animation_data.Scale = 0.69 --done
-            animation_data.OffsetY = -95 --done
-            animation_data.OffsetX = -80 --done
-        end
-
-        if animation_data.Name == "Portrait_Ares_Displeased_01"
-        or animation_data.Name == "Portrait_Ares_Displeased_01_Exit" then
-            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Ares_Displeased_01"
-            animation_data.Scale = 0.70 --done
-            animation_data.OffsetY = -100 --done
-            animation_data.OffsetX = -100 --done
-        end
-
-        -- Narcissus
-        if animation_data.Name == "Portrait_Narcissus_Default_01"
-        or animation_data.Name == "Portrait_Narcissus_Default_01_Exit" then
-            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Narcissus_Default_01"
-            animation_data.Scale = 0.70 --done
-            animation_data.OffsetY = -100 --done
-            animation_data.OffsetX = 100 --done
-        end
-
-        if animation_data.Name == "Portrait_Narcissus_Averted_01"
-        or animation_data.Name == "Portrait_Narcissus_Averted_01_Exit" then
-            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Narcissus_Averted_01"
-            animation_data.Scale = 0.67 --done
-            animation_data.OffsetY = -100 --done
-            animation_data.OffsetX = -100 --done
-        end
-
-        -- Achilles
-        if animation_data.Name == "Portrait_Achilles_Default_01"
-        or animation_data.Name == "Portrait_Achilles_Default_01_Exit" then
-            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Achilles_Default_01"
-            animation_data.Scale = 0.78 --done
-            animation_data.OffsetY = -100 --done
-            animation_data.OffsetX = -100 --done
-        end
-
-        -- Prometheus
-        -- Need images first
-        -- if animation_data.Name == "Portrait_Prometheus_Default_01"
-        -- or animation_data.Name == "Portrait_Prometheus_Default_01_Exit" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Prometheus_Default_01"
-        --     animation_data.Scale = 0.69
-        --     animation_data.OffsetY = -95
-        --     animation_data.OffsetX = -80
-        -- end
-
-        -- Need images first
-        -- if animation_data.Name == "Portrait_Prometheus_Defeated_01"
-        -- or animation_data.Name == "Portrait_Prometheus_Defeated_01_Exit" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Prometheus_Defeated_01"
-        --     animation_data.Scale = 0.69
-        --     animation_data.OffsetY = -95
-        --     animation_data.OffsetX = -80
-        -- end
-
-        -- Hades
-        -- if animation_data.Name == "Portrait_LordHades_01"
-        -- or animation_data.Name == "Portrait_LordHades_01_Exit" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_LordHades_01"
-        --     animation_data.Scale = 0.69
-        --     animation_data.OffsetY = -95
-        --     animation_data.OffsetX = -80
-        -- end
-
-        -- if animation_data.Name == "Portrait_LordHades_Averted_01"
-        -- or animation_data.Name == "Portrait_LordHades_Averted_01_Exit" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_LordHades_Averted_01"
-        --     animation_data.Scale = 0.69
-        --     animation_data.OffsetY = -95
-        --     animation_data.OffsetX = -80
-        -- end
-
-        -- Icarus
-        if animation_data.Name == "Portrait_Icarus_Default_01"
-        or animation_data.Name == "Portrait_Icarus_Default_01_Exit" then
-            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Icarus_Default_01"
-            animation_data.Scale = 0.68 --done
-            animation_data.OffsetY = -100 --done
-            animation_data.OffsetX = -120 --done
-        end
-
-        if animation_data.Name == "Portrait_Icarus_Flushed_01"
-        or animation_data.Name == "Portrait_Icarus_Flushed_01_Exit" then
-            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Icarus_Default_01"
-            animation_data.Scale = 0.68 --done
-            animation_data.OffsetY = -100 --done
-            animation_data.OffsetX = -120 --done
-        end
-
-        if animation_data.Name == "Portrait_Icarus_Pleased_01"
-        or animation_data.Name == "Portrait_Icarus_Pleased_01_Exit" then
-            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Icarus_Pleased_01"
-            animation_data.Scale = 0.66 --done
-            animation_data.OffsetY = -100 --done
-            animation_data.OffsetX = -50 --done
-        end
-
-        if animation_data.Name == "Portrait_Icarus_Unsure_01"
-        or animation_data.Name == "Portrait_Icarus_Unsure_01_Exit" then
-            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Icarus_Unsure_01"
-            animation_data.Scale = 0.67 --done
-            animation_data.OffsetY = -90 --done
-            animation_data.OffsetX = 50 --done
-        end
-
-        if animation_data.Name == "Portrait_Icarus_Whole_01"
-        or animation_data.Name == "Portrait_Icarus_Whole_01_Exit" then
-            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Icarus_Default_01"
-            animation_data.Scale = 0.68 --done
-            animation_data.OffsetY = -100 --done
-            animation_data.OffsetX = -120 --done
-        end
-
-        if animation_data.Name == "Portrait_Icarus_Whole_Flushed_01"
-        or animation_data.Name == "Portrait_Icarus_Whole_Flushed_01_Exit" then
-            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Icarus_Default_01"
-            animation_data.Scale = 0.68 --done
-            animation_data.OffsetY = -100 --done
-            animation_data.OffsetX = -120 --done
-        end
-
-        if animation_data.Name == "Portrait_Icarus_Whole_Pleased_01"
-        or animation_data.Name == "Portrait_Icarus_Whole_Pleased_01_Exit" then
-            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Icarus_Pleased_01"
-            animation_data.Scale = 0.66 --done
-            animation_data.OffsetY = -100 --done
-            animation_data.OffsetX = -50 --done
-        end
-
-        if animation_data.Name == "Portrait_Icarus_Whole_Unsure_01"
-        or animation_data.Name == "Portrait_Icarus_Whole_Unsure_01_Exit" then
-            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Icarus_Unsure_01"
-            animation_data.Scale = 0.67 --done
-            animation_data.OffsetY = -90 --done
-            animation_data.OffsetX = 50 --done
-        end
-
-        if animation_data.Name == "Portrait_Icarus_Bath_01"
-        or animation_data.Name == "Portrait_Icarus_Bath_01_Exit" then
-            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Icarus_Bath_01"
-            animation_data.Scale = 0.70 --done
-            animation_data.OffsetY = -100 --done
-            animation_data.OffsetX = -100 --done
-        end
-
         -- Persephone
         if animation_data.Name == "Portrait_Persephone_Queen_01"
         or animation_data.Name == "Portrait_Persephone_Queen_01_Exit" then
@@ -2121,195 +1733,583 @@ sjson.hook(gui_portraits_vfx_path, function(data)
             animation_data.OffsetX = -100
         end
 
-        -- Zagreus
-        -- if animation_data.Name == "Portrait_Zag_Default_01"
-        -- or animation_data.Name == "Portrait_Zag_Default_01_Exit" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Zag_Default_01"
-        --     animation_data.Scale = 0.69
-        --     animation_data.OffsetY = -95
-        --     animation_data.OffsetX = -80
-        -- end
+        -- Genderbent Character Portraits
+        -- check config in case user has disabled the genderbent characters
+        if config.genderBentEnabled then
+            -- Odysseus
+            if animation_data.Name == "Portrait_Odysseus_Default_01"
+            or animation_data.Name == "Portrait_Odysseus_Default_01_Exit" then
+                animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Odysseus_Default_01"
+                animation_data.Scale = 0.66 --done
+                animation_data.OffsetY = -95 --done
+                animation_data.OffsetX = -100 --done
+            end
 
-        -- if animation_data.Name == "Portrait_Zag_Default_02"
-        -- or animation_data.Name == "Portrait_Zag_Default_02_Exit" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Zag_Default_02"
-        --     animation_data.Scale = 0.69
-        --     animation_data.OffsetY = -95
-        --     animation_data.OffsetX = -80
-        -- end
+            if animation_data.Name == "Portrait_Odysseus_Thoughtful_01"
+            or animation_data.Name == "Portrait_Odysseus_Thoughtful_01_Exit" then
+                animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Odysseus_Thoughtful_01"
+                animation_data.Scale = 0.64 --done
+                animation_data.OffsetY = -98 --done
+                animation_data.OffsetX = -30 --done
+            end
 
-        -- if animation_data.Name == "Portrait_Zag_Serious_01"
-        -- or animation_data.Name == "Portrait_Zag_Serious_01_Exit" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Zag_Serious_01"
-        --     animation_data.Scale = 0.69
-        --     animation_data.OffsetY = -95
-        --     animation_data.OffsetX = -80
-        -- end
+            if animation_data.Name == "Portrait_Odysseus_Bath_01"
+            or animation_data.Name == "Portrait_Odysseus_Bath_01_Exit" then
+                animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Odysseus_Bath_01"
+                animation_data.Scale = 0.7 --done
+                animation_data.OffsetY = -96 --done
+                animation_data.OffsetX = -100 --done
+            end
 
-        -- if animation_data.Name == "Portrait_Zag_Serious_02"
-        -- or animation_data.Name == "Portrait_Zag_Serious_02_Exit" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Zag_Serious_02"
-        --     animation_data.Scale = 0.69
-        --     animation_data.OffsetY = -95
-        --     animation_data.OffsetX = -80
-        -- end
+            -- Moros
+            if animation_data.Name == "Portrait_Moros_Default_01"
+            or animation_data.Name == "Portrait_Moros_Default_01_Exit" then
+                animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Moros_Default_01"
+                animation_data.Scale = 0.66 --done
+                animation_data.OffsetY = -120 --done
+                animation_data.OffsetX = -10 --done
+            end
 
-        -- if animation_data.Name == "Portrait_Zag_Defiant_01"
-        -- or animation_data.Name == "Portrait_Zag_Defiant_01_Exit" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Zag_Defiant_01"
-        --     animation_data.Scale = 0.69
-        --     animation_data.OffsetY = -95
-        --     animation_data.OffsetX = -80
-        -- end
+            if animation_data.Name == "Portrait_Moros_Pleased_01"
+            or animation_data.Name == "Portrait_Moros_Pleased_01_Exit" then
+                animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Moros_Pleased_01"
+                animation_data.Scale = 0.66 --done
+                animation_data.OffsetY = -100 --done
+                animation_data.OffsetX = -50 --done
+            end
 
-        -- if animation_data.Name == "Portrait_Zag_Defiant_02"
-        -- or animation_data.Name == "Portrait_Zag_Defiant_02_Exit" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Zag_Defiant_02"
-        --     animation_data.Scale = 0.69
-        --     animation_data.OffsetY = -95
-        --     animation_data.OffsetX = -80
-        -- end
+            if animation_data.Name == "Portrait_Moros_Flushed_01"
+            or animation_data.Name == "Portrait_Moros_Flushed_01_Exit" then
+                animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Moros_Default_01"
+                animation_data.Scale = 0.69 --done
+                animation_data.OffsetY = -95 --done
+                animation_data.OffsetX = -80 --done
+            end
 
-        -- if animation_data.Name == "Portrait_Zag_Empathetic_01"
-        -- or animation_data.Name == "Portrait_Zag_Empathetic_01_Exit" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Zag_Empathetic_01"
-        --     animation_data.Scale = 0.69
-        --     animation_data.OffsetY = -95
-        --     animation_data.OffsetX = -80
-        -- end
+            if animation_data.Name == "Portrait_Moros_Bath_01"
+            or animation_data.Name == "Portrait_Moros_Bath_01_Exit" then
+                animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Moros_Bath_01"
+                animation_data.Scale = 0.71 --done
+                animation_data.OffsetY = -110 --done
+                animation_data.OffsetX = -60 --done
+            end
 
-        -- if animation_data.Name == "Portrait_Zag_Empathetic_02"
-        -- or animation_data.Name == "Portrait_Zag_Empathetic_02_Exit" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Zag_Empathetic_02"
-        --     animation_data.Scale = 0.69
-        --     animation_data.OffsetY = -95
-        --     animation_data.OffsetX = -80
-        -- end
+            -- Heracles
+            if animation_data.Name == "Portrait_Heracles_Default_01"
+            or animation_data.Name == "Portrait_Heracles_Default_01_Exit" then
+                animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Heracles_Default_01"
+                animation_data.Scale = 0.58 --done
+                animation_data.OffsetY = -110 --done
+                animation_data.OffsetX = -90 --done
+            end
 
-        -- if animation_data.Name == "Portrait_ZagPresent_Default_01"
-        -- or animation_data.Name == "Portrait_ZagPresent_Default_01_Exit" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_ZagPresent_Default_01"
-        --     animation_data.Scale = 0.69
-        --     animation_data.OffsetY = -95
-        --     animation_data.OffsetX = -80
-        -- end
+            -- Hermes
+            if animation_data.Name == "Portrait_Hermes_Default_01"
+            or animation_data.Name == "Portrait_Hermes_Default_01_Exit" then
+                animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Hermes_Default_01"
+                animation_data.Scale = 0.66 --done
+                animation_data.OffsetY = -100 --done
+                animation_data.OffsetX = -85 --done
+            end
 
-        -- if animation_data.Name == "Portrait_ZagPresent_Unwell_01"
-        -- or animation_data.Name == "Portrait_ZagPresent_Unwell_01_Exit" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_ZagPresent_Unwell_01"
-        --     animation_data.Scale = 0.69
-        --     animation_data.OffsetY = -95
-        --     animation_data.OffsetX = -80
-        -- end
+            if animation_data.Name == "Portrait_Hermes_Serious_01"
+            or animation_data.Name == "Portrait_Hermes_Serious_01_Exit" then
+                animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Hermes_Serious_01"
+                animation_data.Scale = 0.7 --done
+                animation_data.OffsetY = -100 --done
+                animation_data.OffsetX = -80 --done
+            end
 
-        -- if animation_data.Name == "Portrait_ZagPresent_Pained_01"
-        -- or animation_data.Name == "Portrait_ZagPresent_Pained_01_Exit" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_ZagPresent_Pained_01"
-        --     animation_data.Scale = 0.69
-        --     animation_data.OffsetY = -95
-        --     animation_data.OffsetX = -80
-        -- end
+            if animation_data.Name == "Portrait_Hermes_InPerson_01"
+            or animation_data.Name == "Portrait_Hermes_InPerson_01_Exit" then
+                animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Hermes_Default_01"
+                animation_data.Scale = 0.66 --done
+                animation_data.OffsetY = -100 --done
+                animation_data.OffsetX = -85 --done
+            end
 
-        -- if animation_data.Name == "Portrait_ZagPresent_Serious_01"
-        -- or animation_data.Name == "Portrait_ZagPresent_Serious_01_Exit" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_ZagPresent_Serious_01"
-        --     animation_data.Scale = 0.69
-        --     animation_data.OffsetY = -95
-        --     animation_data.OffsetX = -80
-        -- end
+            if animation_data.Name == "Portrait_Hermes_InPerson_Serious_01"
+            or animation_data.Name == "Portrait_Hermes_InPerson_Serious_01_Exit" then
+                animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Hermes_Serious_01"
+                animation_data.Scale = 0.7 --done
+                animation_data.OffsetY = -100 --done
+                animation_data.OffsetX = -80 --done
+            end
 
-        -- if animation_data.Name == "Portrait_ZagPresent_Empathetic_01"
-        -- or animation_data.Name == "Portrait_ZagPresent_Empathetic_01_Exit" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_ZagPresent_Empathetic_01"
-        --     animation_data.Scale = 0.69
-        --     animation_data.OffsetY = -95
-        --     animation_data.OffsetX = -80
-        -- end
+            -- Apollo
+            if animation_data.Name == "Portrait_Apollo_Default_01"
+            or animation_data.Name == "Portrait_Apollo_Default_01_Exit" then
+                animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Apollo_Default_01"
+                animation_data.Scale = 0.66 --done
+                animation_data.OffsetY = -95 --done
+                animation_data.OffsetX = -40 --done
+            end
 
-        -- if animation_data.Name == "Portrait_ZagPresent_Defiant_01"
-        -- or animation_data.Name == "Portrait_ZagPresent_Defiant_01_Exit" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_ZagPresent_Defiant_01"
-        --     animation_data.Scale = 0.69
-        --     animation_data.OffsetY = -95
-        --     animation_data.OffsetX = -80
-        -- end
+            if animation_data.Name == "Portrait_Apollo_Displeased_01"
+            or animation_data.Name == "Portrait_Apollo_Displeased_01_Exit" then
+                animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Apollo_Displeased_01"
+                animation_data.Scale = 0.69 --done
+                animation_data.OffsetY = -100 --done
+                animation_data.OffsetX = -100 --done
+            end
 
-        -- if animation_data.Name == "Portrait_ZagPresent_Defiant_01_NoEnter"
-        -- or animation_data.Name == "Portrait_ZagPresent_Defiant_01_NoEnter_Exit" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_ZagPresent_Defiant_01_NoEnter"
-        --     animation_data.Scale = 0.69
-        --     animation_data.OffsetY = -95
-        --     animation_data.OffsetX = -80
-        -- end
+            if animation_data.Name == "Portrait_Apollo_Serious_01"
+            or animation_data.Name == "Portrait_Apollo_Serious_01_Exit" then
+                animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Apollo_Serious_01"
+                animation_data.Scale = 0.7 --done
+                animation_data.OffsetY = -98 --done
+                animation_data.OffsetX = -100 --done
+            end
 
-        -- Chronos
-        -- if animation_data.Name == "Portrait_Chronos_Default_01"
-        -- or animation_data.Name == "Portrait_Chronos_Default_01_Exit"
-        -- or animation_data.Name == "Portrait_Chronos_Main" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Chronos_Default_01"
-        --     animation_data.Scale = 0.69
-        --     animation_data.OffsetY = -95
-        --     animation_data.OffsetX = -80
-        -- end
+            if animation_data.Name == "Portrait_Apollo_InPerson_01"
+            or animation_data.Name == "Portrait_Apollo_InPerson_01_Exit" then
+                animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Apollo_Default_01"
+                animation_data.Scale = 0.66 --done
+                animation_data.OffsetY = -95 --done
+                animation_data.OffsetX = -40 --done
+            end
 
-        -- if animation_data.Name == "Portrait_Chronos_Flashback_01"
-        -- or animation_data.Name == "Portrait_Chronos_Flashback_01_Exit" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Chronos_Flashback_01"
-        --     animation_data.Scale = 0.69
-        --     animation_data.OffsetY = -95
-        --     animation_data.OffsetX = -80
-        -- end
 
-        -- if animation_data.Name == "Portrait_Chronos_Averted_01"
-        -- or animation_data.Name == "Portrait_Chronos_Averted_01_Exit" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Chronos_Averted_01"
-        --     animation_data.Scale = 0.69
-        --     animation_data.OffsetY = -95
-        --     animation_data.OffsetX = -80
-        -- end
+            if animation_data.Name == "Portrait_Apollo_InPerson_Serious_01"
+            or animation_data.Name == "Portrait_Apollo_InPerson_Serious_01_Exit" then
+                animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Apollo_Serious_01"
+                animation_data.Scale = 0.7 --done
+                animation_data.OffsetY = -98 --done
+                animation_data.OffsetX = -100 --done
+            end
 
-        -- if animation_data.Name == "Portrait_Chronos_Pained_01"
-        -- or animation_data.Name == "Portrait_Chronos_Pained_01_Exit" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Chronos_Pained_01"
-        --     animation_data.Scale = 0.69
-        --     animation_data.OffsetY = -95
-        --     animation_data.OffsetX = -80
-        -- end
+            -- Hephaestus
+            if animation_data.Name == "Portrait_Hephaestus_Default_01"
+            or animation_data.Name == "Portrait_Hephaestus_Default_01_Exit" then
+                animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Hephaestus_Default_01"
+                animation_data.Scale = 0.7 --done
+                animation_data.OffsetY = -85 --done
+                animation_data.OffsetX = -100 --done
+            end
 
-        -- if animation_data.Name == "Portrait_Chronos_Confused_01"
-        -- or animation_data.Name == "Portrait_Chronos_Confused_01_Exit" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Chronos_Confused_01"
-        --     animation_data.Scale = 0.69
-        --     animation_data.OffsetY = -95
-        --     animation_data.OffsetX = -80
-        -- end
 
-        -- if animation_data.Name == "Portrait_Chronos_Default_02"
-        -- or animation_data.Name == "Portrait_Chronos_Default_02_Exit" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Chronos_Default_02"
-        --     animation_data.Scale = 0.69
-        --     animation_data.OffsetY = -95
-        --     animation_data.OffsetX = -80
-        -- end
+            if animation_data.Name == "Portrait_Hephaestus_Displeased_01"
+            or animation_data.Name == "Portrait_Hephaestus_Displeased_01_Exit" then
+                animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Hephaestus_Displeased_01"
+                animation_data.Scale = 0.7 --done
+                animation_data.OffsetY = -98 --done
+                animation_data.OffsetX = -100 --done
+            end
 
+            -- Poseidon
+            if animation_data.Name == "Portrait_Poseidon_Default_01"
+            or animation_data.Name == "Portrait_Poseidon_Default_01_Exit" then
+                animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Poseidon_Default_01"
+                animation_data.Scale = 0.65 --done
+                animation_data.OffsetY = -108 --done
+                animation_data.OffsetX = -20 --done
+            end
+
+            if animation_data.Name == "Portrait_Poseidon_Displeased_01"
+            or animation_data.Name == "Portrait_Poseidon_Displeased_01_Exit" then
+                animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Poseidon_Displeased_01"
+                animation_data.Scale = 0.66 --done
+                animation_data.OffsetY = -98 --done
+                animation_data.OffsetX = -100 --done
+            end
+
+            -- Zeus
+            if animation_data.Name == "Portrait_Zeus_Default_01"
+            or animation_data.Name == "Portrait_Zeus_Default_01_Exit" then
+                animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Zeus_Default_01"
+                animation_data.Scale = 0.7 --done
+                animation_data.OffsetY = -95 --done
+                animation_data.OffsetX = -55 --done
+            end
+
+            if animation_data.Name == "Portrait_Zeus_Pleased_01"
+            or animation_data.Name == "Portrait_Zeus_Pleased_01_Exit" then
+                animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Zeus_Pleased_01"
+                animation_data.Scale = 0.7 --done
+                animation_data.OffsetY = -100 --done
+                animation_data.OffsetX = -100 --done
+            end
+
+            if animation_data.Name == "Portrait_Zeus_InPerson_01"
+            or animation_data.Name == "Portrait_Zeus_InPerson_01_Exit" then
+                animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Zeus_Default_01"
+                animation_data.Scale = 0.7 --done
+                animation_data.OffsetY = -95 --done
+                animation_data.OffsetX = -55 --done
+            end
+
+            if animation_data.Name == "Portrait_Zeus_InPerson_Pleased_01"
+            or animation_data.Name == "Portrait_Zeus_InPerson_Pleased_01_Exit" then
+                animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Zeus_Pleased_01"
+                animation_data.Scale = 0.7 --done
+                animation_data.OffsetY = -100 --done
+                animation_data.OffsetX = -100 --done
+            end
+
+            -- Charon
+            if animation_data.Name == "Portrait_Charon_Default_01"
+            or animation_data.Name == "Portrait_Charon_Default_01_Exit" then
+                animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Charon_Default_01"
+                animation_data.Scale = 0.69 --done
+                animation_data.OffsetY = -100 --done
+                animation_data.OffsetX = -10 --done
+            end
+
+            -- Schelemeus/Skelly
+            if animation_data.Name == "Portrait_Skelly_Default_01"
+            or animation_data.Name == "Portrait_Skelly_Default_01_Exit" then
+                animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Skelly_Default_01"
+                animation_data.Scale = 0.75 --done
+                animation_data.OffsetY = -100 --done
+                animation_data.OffsetX = -100 --done
+            end
+
+            -- Dionysus
+            if animation_data.Name == "Portrait_Dionysus_Default_01"
+            or animation_data.Name == "Portrait_Dionysus_Default_01_Exit" then
+                animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Dionysus_Default_01"
+                animation_data.Scale = 0.68 --done
+                animation_data.OffsetY = -100 --done
+                animation_data.OffsetX = -100 --done
+            end
+
+            -- Polyphemus/Cyclops
+            if animation_data.Name == "Portrait_Cyclops_Default_01"
+            or animation_data.Name == "Portrait_Cyclops_Default_01_Exit" then
+                animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Cyclops_Default_01"
+                animation_data.Scale = 0.70 --done
+                animation_data.OffsetY = -95 --done
+                animation_data.OffsetX = -100 --done
+            end
+
+            -- Ares
+            if animation_data.Name == "Portrait_Ares_Default_01"
+            or animation_data.Name == "Portrait_Ares_Default_01_Exit" then
+                animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Ares_Default_01"
+                animation_data.Scale = 0.69 --done
+                animation_data.OffsetY = -95 --done
+                animation_data.OffsetX = -80 --done
+            end
+
+            if animation_data.Name == "Portrait_Ares_Displeased_01"
+            or animation_data.Name == "Portrait_Ares_Displeased_01_Exit" then
+                animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Ares_Displeased_01"
+                animation_data.Scale = 0.70 --done
+                animation_data.OffsetY = -100 --done
+                animation_data.OffsetX = -100 --done
+            end
+
+            -- Narcissus
+            if animation_data.Name == "Portrait_Narcissus_Default_01"
+            or animation_data.Name == "Portrait_Narcissus_Default_01_Exit" then
+                animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Narcissus_Default_01"
+                animation_data.Scale = 0.70 --done
+                animation_data.OffsetY = -100 --done
+                animation_data.OffsetX = 100 --done
+            end
+
+            if animation_data.Name == "Portrait_Narcissus_Averted_01"
+            or animation_data.Name == "Portrait_Narcissus_Averted_01_Exit" then
+                animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Narcissus_Averted_01"
+                animation_data.Scale = 0.67 --done
+                animation_data.OffsetY = -100 --done
+                animation_data.OffsetX = -100 --done
+            end
+
+            -- Achilles
+            if animation_data.Name == "Portrait_Achilles_Default_01"
+            or animation_data.Name == "Portrait_Achilles_Default_01_Exit" then
+                animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Achilles_Default_01"
+                animation_data.Scale = 0.78 --done
+                animation_data.OffsetY = -100 --done
+                animation_data.OffsetX = -100 --done
+            end
+
+            -- Prometheus
+            -- Need images first
+            -- if animation_data.Name == "Portrait_Prometheus_Default_01"
+            -- or animation_data.Name == "Portrait_Prometheus_Default_01_Exit" then
+            --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Prometheus_Default_01"
+            --     animation_data.Scale = 0.69
+            --     animation_data.OffsetY = -95
+            --     animation_data.OffsetX = -80
+            -- end
+
+            -- Need images first
+            -- if animation_data.Name == "Portrait_Prometheus_Defeated_01"
+            -- or animation_data.Name == "Portrait_Prometheus_Defeated_01_Exit" then
+            --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Prometheus_Defeated_01"
+            --     animation_data.Scale = 0.69
+            --     animation_data.OffsetY = -95
+            --     animation_data.OffsetX = -80
+            -- end
+
+            -- Hades
+            -- if animation_data.Name == "Portrait_LordHades_01"
+            -- or animation_data.Name == "Portrait_LordHades_01_Exit" then
+            --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_LordHades_01"
+            --     animation_data.Scale = 0.69
+            --     animation_data.OffsetY = -95
+            --     animation_data.OffsetX = -80
+            -- end
+
+            -- if animation_data.Name == "Portrait_LordHades_Averted_01"
+            -- or animation_data.Name == "Portrait_LordHades_Averted_01_Exit" then
+            --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_LordHades_Averted_01"
+            --     animation_data.Scale = 0.69
+            --     animation_data.OffsetY = -95
+            --     animation_data.OffsetX = -80
+            -- end
+
+            -- Icarus
+            if animation_data.Name == "Portrait_Icarus_Default_01"
+            or animation_data.Name == "Portrait_Icarus_Default_01_Exit" then
+                animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Icarus_Default_01"
+                animation_data.Scale = 0.68 --done
+                animation_data.OffsetY = -100 --done
+                animation_data.OffsetX = -120 --done
+            end
+
+            if animation_data.Name == "Portrait_Icarus_Flushed_01"
+            or animation_data.Name == "Portrait_Icarus_Flushed_01_Exit" then
+                animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Icarus_Default_01"
+                animation_data.Scale = 0.68 --done
+                animation_data.OffsetY = -100 --done
+                animation_data.OffsetX = -120 --done
+            end
+
+            if animation_data.Name == "Portrait_Icarus_Pleased_01"
+            or animation_data.Name == "Portrait_Icarus_Pleased_01_Exit" then
+                animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Icarus_Pleased_01"
+                animation_data.Scale = 0.66 --done
+                animation_data.OffsetY = -100 --done
+                animation_data.OffsetX = -50 --done
+            end
+
+            if animation_data.Name == "Portrait_Icarus_Unsure_01"
+            or animation_data.Name == "Portrait_Icarus_Unsure_01_Exit" then
+                animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Icarus_Unsure_01"
+                animation_data.Scale = 0.67 --done
+                animation_data.OffsetY = -90 --done
+                animation_data.OffsetX = 50 --done
+            end
+
+            if animation_data.Name == "Portrait_Icarus_Whole_01"
+            or animation_data.Name == "Portrait_Icarus_Whole_01_Exit" then
+                animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Icarus_Default_01"
+                animation_data.Scale = 0.68 --done
+                animation_data.OffsetY = -100 --done
+                animation_data.OffsetX = -120 --done
+            end
+
+            if animation_data.Name == "Portrait_Icarus_Whole_Flushed_01"
+            or animation_data.Name == "Portrait_Icarus_Whole_Flushed_01_Exit" then
+                animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Icarus_Default_01"
+                animation_data.Scale = 0.68 --done
+                animation_data.OffsetY = -100 --done
+                animation_data.OffsetX = -120 --done
+            end
+
+            if animation_data.Name == "Portrait_Icarus_Whole_Pleased_01"
+            or animation_data.Name == "Portrait_Icarus_Whole_Pleased_01_Exit" then
+                animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Icarus_Pleased_01"
+                animation_data.Scale = 0.66 --done
+                animation_data.OffsetY = -100 --done
+                animation_data.OffsetX = -50 --done
+            end
+
+            if animation_data.Name == "Portrait_Icarus_Whole_Unsure_01"
+            or animation_data.Name == "Portrait_Icarus_Whole_Unsure_01_Exit" then
+                animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Icarus_Unsure_01"
+                animation_data.Scale = 0.67 --done
+                animation_data.OffsetY = -90 --done
+                animation_data.OffsetX = 50 --done
+            end
+
+            if animation_data.Name == "Portrait_Icarus_Bath_01"
+            or animation_data.Name == "Portrait_Icarus_Bath_01_Exit" then
+                animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Icarus_Bath_01"
+                animation_data.Scale = 0.70 --done
+                animation_data.OffsetY = -100 --done
+                animation_data.OffsetX = -100 --done
+            end
+
+            -- Zagreus
+            -- if animation_data.Name == "Portrait_Zag_Default_01"
+            -- or animation_data.Name == "Portrait_Zag_Default_01_Exit" then
+            --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Zag_Default_01"
+            --     animation_data.Scale = 0.69
+            --     animation_data.OffsetY = -95
+            --     animation_data.OffsetX = -80
+            -- end
+
+            -- if animation_data.Name == "Portrait_Zag_Default_02"
+            -- or animation_data.Name == "Portrait_Zag_Default_02_Exit" then
+            --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Zag_Default_02"
+            --     animation_data.Scale = 0.69
+            --     animation_data.OffsetY = -95
+            --     animation_data.OffsetX = -80
+            -- end
+
+            -- if animation_data.Name == "Portrait_Zag_Serious_01"
+            -- or animation_data.Name == "Portrait_Zag_Serious_01_Exit" then
+            --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Zag_Serious_01"
+            --     animation_data.Scale = 0.69
+            --     animation_data.OffsetY = -95
+            --     animation_data.OffsetX = -80
+            -- end
+
+            -- if animation_data.Name == "Portrait_Zag_Serious_02"
+            -- or animation_data.Name == "Portrait_Zag_Serious_02_Exit" then
+            --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Zag_Serious_02"
+            --     animation_data.Scale = 0.69
+            --     animation_data.OffsetY = -95
+            --     animation_data.OffsetX = -80
+            -- end
+
+            -- if animation_data.Name == "Portrait_Zag_Defiant_01"
+            -- or animation_data.Name == "Portrait_Zag_Defiant_01_Exit" then
+            --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Zag_Defiant_01"
+            --     animation_data.Scale = 0.69
+            --     animation_data.OffsetY = -95
+            --     animation_data.OffsetX = -80
+            -- end
+
+            -- if animation_data.Name == "Portrait_Zag_Defiant_02"
+            -- or animation_data.Name == "Portrait_Zag_Defiant_02_Exit" then
+            --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Zag_Defiant_02"
+            --     animation_data.Scale = 0.69
+            --     animation_data.OffsetY = -95
+            --     animation_data.OffsetX = -80
+            -- end
+
+            -- if animation_data.Name == "Portrait_Zag_Empathetic_01"
+            -- or animation_data.Name == "Portrait_Zag_Empathetic_01_Exit" then
+            --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Zag_Empathetic_01"
+            --     animation_data.Scale = 0.69
+            --     animation_data.OffsetY = -95
+            --     animation_data.OffsetX = -80
+            -- end
+
+            -- if animation_data.Name == "Portrait_Zag_Empathetic_02"
+            -- or animation_data.Name == "Portrait_Zag_Empathetic_02_Exit" then
+            --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Zag_Empathetic_02"
+            --     animation_data.Scale = 0.69
+            --     animation_data.OffsetY = -95
+            --     animation_data.OffsetX = -80
+            -- end
+
+            -- if animation_data.Name == "Portrait_ZagPresent_Default_01"
+            -- or animation_data.Name == "Portrait_ZagPresent_Default_01_Exit" then
+            --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_ZagPresent_Default_01"
+            --     animation_data.Scale = 0.69
+            --     animation_data.OffsetY = -95
+            --     animation_data.OffsetX = -80
+            -- end
+
+            -- if animation_data.Name == "Portrait_ZagPresent_Unwell_01"
+            -- or animation_data.Name == "Portrait_ZagPresent_Unwell_01_Exit" then
+            --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_ZagPresent_Unwell_01"
+            --     animation_data.Scale = 0.69
+            --     animation_data.OffsetY = -95
+            --     animation_data.OffsetX = -80
+            -- end
+
+            -- if animation_data.Name == "Portrait_ZagPresent_Pained_01"
+            -- or animation_data.Name == "Portrait_ZagPresent_Pained_01_Exit" then
+            --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_ZagPresent_Pained_01"
+            --     animation_data.Scale = 0.69
+            --     animation_data.OffsetY = -95
+            --     animation_data.OffsetX = -80
+            -- end
+
+            -- if animation_data.Name == "Portrait_ZagPresent_Serious_01"
+            -- or animation_data.Name == "Portrait_ZagPresent_Serious_01_Exit" then
+            --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_ZagPresent_Serious_01"
+            --     animation_data.Scale = 0.69
+            --     animation_data.OffsetY = -95
+            --     animation_data.OffsetX = -80
+            -- end
+
+            -- if animation_data.Name == "Portrait_ZagPresent_Empathetic_01"
+            -- or animation_data.Name == "Portrait_ZagPresent_Empathetic_01_Exit" then
+            --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_ZagPresent_Empathetic_01"
+            --     animation_data.Scale = 0.69
+            --     animation_data.OffsetY = -95
+            --     animation_data.OffsetX = -80
+            -- end
+
+            -- if animation_data.Name == "Portrait_ZagPresent_Defiant_01"
+            -- or animation_data.Name == "Portrait_ZagPresent_Defiant_01_Exit" then
+            --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_ZagPresent_Defiant_01"
+            --     animation_data.Scale = 0.69
+            --     animation_data.OffsetY = -95
+            --     animation_data.OffsetX = -80
+            -- end
+
+            -- if animation_data.Name == "Portrait_ZagPresent_Defiant_01_NoEnter"
+            -- or animation_data.Name == "Portrait_ZagPresent_Defiant_01_NoEnter_Exit" then
+            --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_ZagPresent_Defiant_01_NoEnter"
+            --     animation_data.Scale = 0.69
+            --     animation_data.OffsetY = -95
+            --     animation_data.OffsetX = -80
+            -- end
+
+            -- Chronos
+            -- if animation_data.Name == "Portrait_Chronos_Default_01"
+            -- or animation_data.Name == "Portrait_Chronos_Default_01_Exit"
+            -- or animation_data.Name == "Portrait_Chronos_Main" then
+            --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Chronos_Default_01"
+            --     animation_data.Scale = 0.69
+            --     animation_data.OffsetY = -95
+            --     animation_data.OffsetX = -80
+            -- end
+
+            -- if animation_data.Name == "Portrait_Chronos_Flashback_01"
+            -- or animation_data.Name == "Portrait_Chronos_Flashback_01_Exit" then
+            --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Chronos_Flashback_01"
+            --     animation_data.Scale = 0.69
+            --     animation_data.OffsetY = -95
+            --     animation_data.OffsetX = -80
+            -- end
+
+            -- if animation_data.Name == "Portrait_Chronos_Averted_01"
+            -- or animation_data.Name == "Portrait_Chronos_Averted_01_Exit" then
+            --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Chronos_Averted_01"
+            --     animation_data.Scale = 0.69
+            --     animation_data.OffsetY = -95
+            --     animation_data.OffsetX = -80
+            -- end
+
+            -- if animation_data.Name == "Portrait_Chronos_Pained_01"
+            -- or animation_data.Name == "Portrait_Chronos_Pained_01_Exit" then
+            --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Chronos_Pained_01"
+            --     animation_data.Scale = 0.69
+            --     animation_data.OffsetY = -95
+            --     animation_data.OffsetX = -80
+            -- end
+
+            -- if animation_data.Name == "Portrait_Chronos_Confused_01"
+            -- or animation_data.Name == "Portrait_Chronos_Confused_01_Exit" then
+            --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Chronos_Confused_01"
+            --     animation_data.Scale = 0.69
+            --     animation_data.OffsetY = -95
+            --     animation_data.OffsetX = -80
+            -- end
+
+            -- if animation_data.Name == "Portrait_Chronos_Default_02"
+            -- or animation_data.Name == "Portrait_Chronos_Default_02_Exit" then
+            --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Chronos_Default_02"
+            --     animation_data.Scale = 0.69
+            --     animation_data.OffsetY = -95
+            --     animation_data.OffsetX = -80
+            -- end
+
+        end
 
         -- Overlays
         -- These are the overlays, I believe them to be part of the Godsent Hex code.
         -- The scale and position should just match that of the portrait replacements.
-        if animation_data.Name == "ZeusOverlay" then
-            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Zeus_Default_01"
-            animation_data.Scale = 0.7 --done
-            animation_data.OffsetY = -95 --done
-            animation_data.OffsetX = -55 --done
-        end
-
-        if animation_data.Name == "PoseidonOverlay" then
-            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Poseidon_Default_01"
-            animation_data.Scale = 0.65 --done
-            animation_data.OffsetY = -108 --done
-            animation_data.OffsetX = -20 --done
-        end
-
         if animation_data.Name == "AphroditeOverlay" then
             animation_data.FilePath = "Kuipo-RespritePortraits1\\Portrait_Aphrodite_Default_01"
             animation_data.Scale = 0.65 --done
@@ -2322,27 +2322,6 @@ sjson.hook(gui_portraits_vfx_path, function(data)
             animation_data.Scale = 0.65 --done
             animation_data.OffsetY = -100 --done
             animation_data.OffsetX = -100 --done
-        end
-
-        if animation_data.Name == "IcarusOverlay" then
-            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Icarus_Default_01"
-            animation_data.Scale = 0.68 --done
-            animation_data.OffsetY = -100 --done
-            animation_data.OffsetX = -120 --done
-        end
-
-        if animation_data.Name == "HermesOverlay" then
-            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Hermes_Default_01"
-            animation_data.Scale = 0.66 --done
-            animation_data.OffsetY = -100 --done
-            animation_data.OffsetX = -85 --done
-        end
-
-        if animation_data.Name == "ApolloOverlay" then
-            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Apollo_Default_01"
-            animation_data.Scale = 0.66 --done
-            animation_data.OffsetY = -95 --done
-            animation_data.OffsetX = -40 --done
         end
 
         if animation_data.Name == "HeraOverlay" then
@@ -2359,20 +2338,6 @@ sjson.hook(gui_portraits_vfx_path, function(data)
             animation_data.OffsetX = -50 --done
         end
 
-        if animation_data.Name == "HephaestusOverlay" then
-            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Hephaestus_Default_01"
-            animation_data.Scale = 0.7 --done
-            animation_data.OffsetY = -85 --done
-            animation_data.OffsetX = -100 --done
-        end
-
-        if animation_data.Name == "AresOverlay" then
-            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Ares_Default_01"
-            animation_data.Scale = 0.69
-            animation_data.OffsetY = -95
-            animation_data.OffsetX = -80
-        end
-
         if animation_data.Name == "DemeterOverlay" then
             animation_data.FilePath = "Kuipo-RespritePortraits1\\Portrait_Demeter_Default_01"
             animation_data.Scale = 0.7 --done
@@ -2387,20 +2352,6 @@ sjson.hook(gui_portraits_vfx_path, function(data)
             animation_data.OffsetX = -50 --done
         end
 
-        -- if animation_data.Name == "ChronosOverlay" then
-        --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Chronos_Default_01"
-        --     animation_data.Scale = 0.69
-        --     animation_data.OffsetY = -95
-        --     animation_data.OffsetX = -80
-        -- end
-
-        if animation_data.Name == "HeraclesOverlay" then
-            animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Heracles_Default_01"
-            animation_data.Scale = 0.58 --done
-            animation_data.OffsetY = -110 --done
-            animation_data.OffsetX = -90 --done
-        end
-
         if animation_data.Name == "NemesisOverlay" then
             animation_data.FilePath = "Kuipo-RespritePortraits1\\Portrait_Nemesis_Default_01"
             animation_data.Scale = 0.65 --done
@@ -2408,6 +2359,71 @@ sjson.hook(gui_portraits_vfx_path, function(data)
             animation_data.OffsetX = -100 --done
         end
 
+        -- Genderbent Character Overlays
+        if config.genderBentEnabled then
+            if animation_data.Name == "HeraclesOverlay" then
+                animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Heracles_Default_01"
+                animation_data.Scale = 0.58 --done
+                animation_data.OffsetY = -110 --done
+                animation_data.OffsetX = -90 --done
+            end
+
+            -- if animation_data.Name == "ChronosOverlay" then
+            --     animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Chronos_Default_01"
+            --     animation_data.Scale = 0.69
+            --     animation_data.OffsetY = -95
+            --     animation_data.OffsetX = -80
+            -- end
+
+                    if animation_data.Name == "HephaestusOverlay" then
+                animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Hephaestus_Default_01"
+                animation_data.Scale = 0.7 --done
+                animation_data.OffsetY = -85 --done
+                animation_data.OffsetX = -100 --done
+            end
+
+            if animation_data.Name == "AresOverlay" then
+                animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Ares_Default_01"
+                animation_data.Scale = 0.69
+                animation_data.OffsetY = -95
+                animation_data.OffsetX = -80
+            end
+
+            if animation_data.Name == "IcarusOverlay" then
+                animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Icarus_Default_01"
+                animation_data.Scale = 0.68 --done
+                animation_data.OffsetY = -100 --done
+                animation_data.OffsetX = -120 --done
+            end
+
+            if animation_data.Name == "HermesOverlay" then
+                animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Hermes_Default_01"
+                animation_data.Scale = 0.66 --done
+                animation_data.OffsetY = -100 --done
+                animation_data.OffsetX = -85 --done
+            end
+
+            if animation_data.Name == "ApolloOverlay" then
+                animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Apollo_Default_01"
+                animation_data.Scale = 0.66 --done
+                animation_data.OffsetY = -95 --done
+                animation_data.OffsetX = -40 --done
+            end
+
+            if animation_data.Name == "ZeusOverlay" then
+                animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Zeus_Default_01"
+                animation_data.Scale = 0.7 --done
+                animation_data.OffsetY = -95 --done
+                animation_data.OffsetX = -55 --done
+            end
+
+            if animation_data.Name == "PoseidonOverlay" then
+                animation_data.FilePath = "Kuipo-RespritePortraits2\\Portrait_Poseidon_Default_01"
+                animation_data.Scale = 0.65 --done
+                animation_data.OffsetY = -108 --done
+                animation_data.OffsetX = -20 --done
+            end
+        end
 
         --offset note
         -- y  -up    +down
@@ -2547,93 +2563,96 @@ sjson.hook(gui_screens_vfx_path, function(data)
             animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Arachne"
         end
 
-        if animation_data.Name == "Codex_Portrait_Odysseus" then
-            animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Odysseus"
-        end
-
-        if animation_data.Name == "Codex_Portrait_Moros" then
-            animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Moros"
-        end
-
-        if animation_data.Name == "Codex_Portrait_Heracles" then
-            animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Heracles"
-        end
-
-        if animation_data.Name == "Codex_Portrait_Hermes" then
-            animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Hermes"
-        end
-
-        if animation_data.Name == "Codex_Portrait_Apollo" then
-            animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Apollo"
-        end
-
-        if animation_data.Name == "Codex_Portrait_Hephaestus" then
-            animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Hephaestus"
-        end
-
-        if animation_data.Name == "Codex_Portrait_Poseidon" then
-            animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Poseidon"
-        end
-
-        if animation_data.Name == "Codex_Portrait_Zeus" then
-            animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Zeus"
-        end
-
-        if animation_data.Name == "Codex_Portrait_Charon" then
-            animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Charon"
-        end
-
-        if animation_data.Name == "Codex_Portrait_Skelly" then
-            animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Skelly"
-        end
-
-        if animation_data.Name == "Codex_Portrait_Dionysus" then
-            animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Dionysus"
-        end
-
-        if animation_data.Name == "Codex_Portrait_Polyphemus" then
-            animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Cyclops"
-        end
-
-        if animation_data.Name == "Codex_Portrait_Ares" then
-            animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Ares"
-        end
-
-        if animation_data.Name == "Codex_Portrait_Narcissus" then
-            animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Narcissus"
-        end
-
-        if animation_data.Name == "Codex_Portrait_Achilles" then
-            animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Achilles"
-        end
-
-        -- if animation_data.Name == "Codex_Portrait_Prometheus" then
-        --     animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Prometheus"
-        -- end
-
-        -- if animation_data.Name == "Codex_Portrait_Hades" then
-        --     animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Hades"
-        -- end
-        -- -- What is this codex entry?
-        -- -- Codex_Portrait_Hades_Alt
-
-        if animation_data.Name == "Codex_Portrait_Icarus" then
-            animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Icarus"
-        end
-
         if animation_data.Name == "Codex_Portrait_Persephone" then
             animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Persephone"
         end
 
-        -- if animation_data.Name == "Codex_Portrait_Zagreus" then
-        --     animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Zagreus"
-        -- end
+        -- Genderbent Character Codex
+        if config.genderBentEnabled then
+            if animation_data.Name == "Codex_Portrait_Odysseus" then
+                animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Odysseus"
+            end
 
-        -- if animation_data.Name == "Codex_Portrait_Chronos" then
-        --     animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Chronos"
-        -- end
-        -- -- What is this codex entry?
-        -- -- Codex_Portrait_Chronos_Alt
+            if animation_data.Name == "Codex_Portrait_Moros" then
+                animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Moros"
+            end
+
+            if animation_data.Name == "Codex_Portrait_Heracles" then
+                animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Heracles"
+            end
+
+            if animation_data.Name == "Codex_Portrait_Hermes" then
+                animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Hermes"
+            end
+
+            if animation_data.Name == "Codex_Portrait_Apollo" then
+                animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Apollo"
+            end
+
+            if animation_data.Name == "Codex_Portrait_Hephaestus" then
+                animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Hephaestus"
+            end
+
+            if animation_data.Name == "Codex_Portrait_Poseidon" then
+                animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Poseidon"
+            end
+
+            if animation_data.Name == "Codex_Portrait_Zeus" then
+                animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Zeus"
+            end
+
+            if animation_data.Name == "Codex_Portrait_Charon" then
+                animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Charon"
+            end
+
+            if animation_data.Name == "Codex_Portrait_Skelly" then
+                animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Skelly"
+            end
+
+            if animation_data.Name == "Codex_Portrait_Dionysus" then
+                animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Dionysus"
+            end
+
+            if animation_data.Name == "Codex_Portrait_Polyphemus" then
+                animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Cyclops"
+            end
+
+            if animation_data.Name == "Codex_Portrait_Ares" then
+                animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Ares"
+            end
+
+            if animation_data.Name == "Codex_Portrait_Narcissus" then
+                animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Narcissus"
+            end
+
+            if animation_data.Name == "Codex_Portrait_Achilles" then
+                animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Achilles"
+            end
+
+            -- if animation_data.Name == "Codex_Portrait_Prometheus" then
+            --     animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Prometheus"
+            -- end
+
+            -- if animation_data.Name == "Codex_Portrait_Hades" then
+            --     animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Hades"
+            -- end
+            -- -- What is this codex entry?
+            -- -- Codex_Portrait_Hades_Alt
+
+            if animation_data.Name == "Codex_Portrait_Icarus" then
+                animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Icarus"
+            end
+
+            -- if animation_data.Name == "Codex_Portrait_Zagreus" then
+            --     animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Zagreus"
+            -- end
+
+            -- if animation_data.Name == "Codex_Portrait_Chronos" then
+            --     animation_data.FilePath = "Kuipo-RespriteCodex\\Codex_Portrait_Chronos"
+            -- end
+            -- -- What is this codex entry?
+            -- -- Codex_Portrait_Chronos_Alt
+        end
 
     end
 end)

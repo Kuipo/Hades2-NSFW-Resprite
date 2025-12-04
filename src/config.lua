@@ -1,5 +1,5 @@
 return {
-  version = 0;
-  enabled = true;
-  message = 'Kuipo-NSFWResprite Loaded';
+  genderBentEnabled = true,
+}, {
+  genderBentEnabled = "Set to true to enable genderbent characters.",
 }
